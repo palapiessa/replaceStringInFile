@@ -1,0 +1,2281 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../../uit/libs/TestTools/testreference.xslt"?>
+<UNITTESTS>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#1</ID>
+    <Description>Testing existence of UITArcHeadNeck patient in the first place.</Description>
+    <Object ID="MPatient:UITArcHeadNeck" Class="MPatient" Name="Patient">
+      <String Name="ArchiveDate"><![CDATA[]]></String>
+      <String Name="ArchiveVolume"><![CDATA[]]></String>
+      <String Name="AutopsyOutcome"><![CDATA[]]></String>
+      <String Name="AutopsyStatus"><![CDATA[]]></String>
+      <String Name="BirthCity"><![CDATA[]]></String>
+      <String Name="BirthCountry"><![CDATA[]]></String>
+      <String Name="BirthCounty"><![CDATA[]]></String>
+      <String Name="BirthState"><![CDATA[]]></String>
+      <String Name="BloodGroup"><![CDATA[]]></String>
+      <String Name="Citizenship"><![CDATA[]]></String>
+      <String Name="Comment"><![CDATA[]]></String>
+      <String Name="ContrastAllergies"><![CDATA[]]></String>
+      <String Name="CreationUserName"><![CDATA[]]></String>
+      <String Name="DateOfBirth"><![CDATA[]]></String>
+      <String Name="DeathCause"><![CDATA[]]></String>
+      <String Name="DeathDate"><![CDATA[]]></String>
+      <String Name="FirstName"><![CDATA[HeadNeck Case]]></String>
+      <String Name="HomePhone"><![CDATA[]]></String>
+      <String Name="Honorific"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[UITArcHeadNeck]]></String>
+      <Integer Name="InPatientFlag">0</Integer>
+      <String Name="Language"><![CDATA[]]></String>
+      <String Name="LastMenstrualDate"><![CDATA[]]></String>
+      <String Name="LastName"><![CDATA[UIT patient]]></String>
+      <Integer Name="LoadStatus">1</Integer>
+      <String Name="MaidenName"><![CDATA[]]></String>
+      <String Name="MaritalStatus"><![CDATA[]]></String>
+      <String Name="MedRecordLocator"><![CDATA[]]></String>
+      <String Name="MedicalAlerts"><![CDATA[]]></String>
+      <String Name="MiddleName"><![CDATA[]]></String>
+      <String Name="MothersMaidenName"><![CDATA[]]></String>
+      <String Name="Name"><![CDATA[UIT patient, HeadNeck Case (UITArcHeadNeck)]]></String>
+      <String Name="NameSuffix"><![CDATA[]]></String>
+      <String Name="Occupation"><![CDATA[]]></String>
+      <String Name="PassportNumber"><![CDATA[]]></String>
+      <String Name="PatientId2"><![CDATA[]]></String>
+      <String Name="PatientIdIssuer"><![CDATA[]]></String>
+      <String Name="PatientState"><![CDATA[]]></String>
+      <String Name="PatientType"><![CDATA[ActivePatient]]></String>
+      <String Name="PregnancyStatus"><![CDATA[]]></String>
+      <String Name="Race"><![CDATA[]]></String>
+      <String Name="ReligiousPreference"><![CDATA[]]></String>
+      <String Name="RetireDate"><![CDATA[]]></String>
+      <String Name="RetireNote"><![CDATA[]]></String>
+      <String Name="RetireReason"><![CDATA[]]></String>
+      <String Name="SSN"><![CDATA[]]></String>
+      <String Name="Sex"><![CDATA[Unknown]]></String>
+      <String Name="SmokingStatus"><![CDATA[]]></String>
+      <String Name="SpecialNeeds"><![CDATA[]]></String>
+      <String Name="Status"><![CDATA[New Patient (NP)]]></String>
+      <String Name="UniversalPatientId"><![CDATA[]]></String>
+      <String Name="UserDefAttrib01"><![CDATA[]]></String>
+      <String Name="UserDefAttrib02"><![CDATA[]]></String>
+      <String Name="UserDefAttrib03"><![CDATA[]]></String>
+      <String Name="UserDefAttrib04"><![CDATA[]]></String>
+      <String Name="UserDefAttrib05"><![CDATA[]]></String>
+      <String Name="UserDefAttrib06"><![CDATA[]]></String>
+      <String Name="UserDefAttrib07"><![CDATA[]]></String>
+      <String Name="UserDefAttrib08"><![CDATA[]]></String>
+      <String Name="UserDefAttrib09"><![CDATA[]]></String>
+      <String Name="UserDefAttrib10"><![CDATA[]]></String>
+      <String Name="UserDefAttrib11"><![CDATA[]]></String>
+      <String Name="UserDefAttrib12"><![CDATA[]]></String>
+      <String Name="UserDefAttrib13"><![CDATA[]]></String>
+      <String Name="UserDefAttrib14"><![CDATA[]]></String>
+      <String Name="UserDefAttrib15"><![CDATA[]]></String>
+      <String Name="UserDefAttrib16"><![CDATA[]]></String>
+      <String Name="WorkPhone"><![CDATA[]]></String>
+    </Object>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#2</ID>
+    <Description>Testing series in patient.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:3344/MSeries:Series 2" Class="MSeries" TestAs="MemberEqual" Name="Series">
+      <String Name="AcquisitionType"><![CDATA[Import]]></String>
+      <String Name="BodyPartExamined"><![CDATA[]]></String>
+      <String Name="Comment"><![CDATA[]]></String>
+      <String Name="CreationUserName"><![CDATA[superuser]]></String>
+      <String Name="ID"><![CDATA[Series 2]]></String>
+      <Integer Name="LoadStatus">1</Integer>
+      <String Name="Name"><![CDATA[Series 2]]></String>
+      <String Name="PatientOrientation"><![CDATA[HFS]]></String>
+      <String Name="PositionReferenceIndicator"><![CDATA[]]></String>
+      <Undefined Name="ReconstructionPhase4D"></Undefined>
+      <String Name="ReconstructionType4D"><![CDATA[]]></String>
+      <String Name="SeriesModality"><![CDATA[CT]]></String>
+      <String Name="SeriesType"><![CDATA[Series]]></String>
+    </Object>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#5</ID>
+    <Description>Testing 3D images.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:3344/MSeries:Series 2/MImage:CT_1" Class="MImage" TestAs="MemberEqual" Name="Image 3D">
+      <String Name="Comment"><![CDATA[]]></String>
+      <String Name="CreationUserName"><![CDATA[superuser]]></String>
+      <Integer Name="Flags4D">0</Integer>
+      <Undefined Name="FocusX"></Undefined>
+      <Undefined Name="FocusY"></Undefined>
+      <Undefined Name="FocusZ"></Undefined>
+      <Undefined Name="FractionNumber"></Undefined>
+      <String Name="ID"><![CDATA[CT_1]]></String>
+      <String Name="ImageType"><![CDATA[Image]]></String>
+      <Integer Name="InverseSliceOrder">0</Integer>
+      <Integer Name="LoadStatus">1</Integer>
+      <String Name="Name"><![CDATA[]]></String>
+      <String Name="PatientOrientation"><![CDATA[__]]></String>
+      <String Name="PixelUnit"><![CDATA[]]></String>
+      <Integer Name="ProcessedFlag">0</Integer>
+      <String Name="ProcessingDefinition"><![CDATA[]]></String>
+      <Undefined Name="ProjectionFlag"></Undefined>
+      <Undefined Name="RefDicomSeqNumber"></Undefined>
+      <String Name="Status"><![CDATA[New]]></String>
+      <String Name="StatusUserName"><![CDATA[superuser]]></String>
+      <Array Name="Transformation">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Array Name="Transformation relative">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+      </Array>
+      <Integer Name="UnknownDefaultProcessingDlgChecked">0</Integer>
+      <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01" Name="UserOrigin">
+        <Double>0</Double>
+        <Double>0</Double>
+        <Double>0</Double>
+      </Array>
+      <String Name="UserOriginComment"><![CDATA[]]></String>
+      <Array Name="VolumeTransformation">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.08">
+          <Double>200</Double>
+          <Double>200</Double>
+          <Double>-862.68</Double>
+        </Array>
+      </Array>
+      <Integer Name="VolumetricPixelOffset">0</Integer>
+      <Double Tolerance="0.01" Name="VolumetricPixelSlope">1</Double>
+      <Double Tolerance="0.00781" Name="X pixel size">0.78125</Double>
+      <Integer Name="X size">512</Integer>
+      <Double Tolerance="0.00781" Name="Y pixel size">0.78125</Double>
+      <Integer Name="Y size">512</Integer>
+      <Double Tolerance="0.03" Name="Z pixel size">3</Double>
+      <Integer Name="Z size">79</Integer>
+      <Volume3D width="512" height="512" depth="79" bytesPerPixel="2" Name="imagePixels">volume 1.v3d</Volume3D>
+      <Array Name="origDisplayTransformation">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+      </Array>
+    </Object>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#6</ID>
+    <Description>Testing PTV structure.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1/MStructure:PTV" Class="MStructure" TestAs="MemberEqual" Name="Structure">
+      <String Name="Comment"><![CDATA[]]></String>
+      <Integer Name="DVHLineColor">-16777216</Integer>
+      <Integer Name="DVHLineStyle">0</Integer>
+      <Double Tolerance="0.01" Name="DVHLineWidth">1</Double>
+      <Undefined Name="EUDAlpha"></Undefined>
+      <Undefined Name="FirstSlice"></Undefined>
+      <String Name="GenerationAlgorithm"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[PTV]]></String>
+      <Integer Name="LastModifiedPlane">0</Integer>
+      <Undefined Name="LastSlice"></Undefined>
+      <Integer Name="LoadStatus">1</Integer>
+      <Object ID="NIL" Class="MObject" Name="Material"></Object>
+      <Undefined Name="MaterialCTValue"></Undefined>
+      <String Name="Name"><![CDATA[PTV]]></String>
+      <String Name="ROIPhysicalProperty"><![CDATA[]]></String>
+      <String Name="ROIPhysicalPropertyValue"><![CDATA[]]></String>
+      <Undefined Name="SearchCTHigh"></Undefined>
+      <Undefined Name="SearchCTLow"></Undefined>
+      <Volume3D Base="Segment" TestAs="CrossOver" width="256" height="256" depth="79" bytesPerPixel="1" Name="Structure pixels">Segment 1.v3d</Volume3D>
+      <Object ID="MStructureType:PatientVolume" Class="MStructureType" Name="StructureType"></Object>
+      <Undefined Name="TCPAlpha"></Undefined>
+      <Undefined Name="TCPBeta"></Undefined>
+      <Undefined Name="TCPGamma"></Undefined>
+      <Undefined Name="ThicknessCm"></Undefined>
+      <Array Name="Transform">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Double Tolerance="0.0156" Name="X res">1.5625</Double>
+      <Integer Name="X size">256</Integer>
+      <Double Tolerance="0.0156" Name="Y res">1.5625</Double>
+      <Integer Name="Y size">256</Integer>
+      <Double Tolerance="0.03" Name="Z res">3</Double>
+      <Integer Name="Z size">79</Integer>
+    </Object>
+    <String Name="Assigned material"><![CDATA[]]></String>
+    <Double Tolerance="0.5" Name="Assigned CT value">NaN</Double>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#7</ID>
+    <Description>Testing body structure.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1/MStructure:BODY" Class="MStructure" TestAs="MemberEqual" Name="Structure">
+      <String Name="Comment"><![CDATA[]]></String>
+      <Integer Name="DVHLineColor">-16777216</Integer>
+      <Integer Name="DVHLineStyle">0</Integer>
+      <Double Tolerance="0.01" Name="DVHLineWidth">1</Double>
+      <Undefined Name="EUDAlpha"></Undefined>
+      <Undefined Name="FirstSlice"></Undefined>
+      <String Name="GenerationAlgorithm"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[BODY]]></String>
+      <Integer Name="LastModifiedPlane">0</Integer>
+      <Undefined Name="LastSlice"></Undefined>
+      <Integer Name="LoadStatus">1</Integer>
+      <Object ID="NIL" Class="MObject" Name="Material"></Object>
+      <Undefined Name="MaterialCTValue"></Undefined>
+      <String Name="Name"><![CDATA[BODY]]></String>
+      <String Name="ROIPhysicalProperty"><![CDATA[]]></String>
+      <String Name="ROIPhysicalPropertyValue"><![CDATA[]]></String>
+      <Undefined Name="SearchCTHigh"></Undefined>
+      <Undefined Name="SearchCTLow"></Undefined>
+      <Volume3D Base="Segment" TestAs="CrossOver" width="256" height="256" depth="79" bytesPerPixel="1" Name="Structure pixels">Segment 2.v3d</Volume3D>
+      <Object ID="MStructureType:PatientVolume" Class="MStructureType" Name="StructureType"></Object>
+      <Undefined Name="TCPAlpha"></Undefined>
+      <Undefined Name="TCPBeta"></Undefined>
+      <Undefined Name="TCPGamma"></Undefined>
+      <Undefined Name="ThicknessCm"></Undefined>
+      <Array Name="Transform">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Double Tolerance="0.0156" Name="X res">1.5625</Double>
+      <Integer Name="X size">256</Integer>
+      <Double Tolerance="0.0156" Name="Y res">1.5625</Double>
+      <Integer Name="Y size">256</Integer>
+      <Double Tolerance="0.03" Name="Z res">3</Double>
+      <Integer Name="Z size">79</Integer>
+    </Object>
+    <String Name="Assigned material"><![CDATA[]]></String>
+    <Double Tolerance="0.5" Name="Assigned CT value">NaN</Double>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#8</ID>
+    <Description>Testing spinal cord structure.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1/MStructure:Spinal Cord" Class="MStructure" TestAs="MemberEqual" Name="Structure">
+      <String Name="Comment"><![CDATA[]]></String>
+      <Integer Name="DVHLineColor">-16777216</Integer>
+      <Integer Name="DVHLineStyle">0</Integer>
+      <Double Tolerance="0.01" Name="DVHLineWidth">1</Double>
+      <Undefined Name="EUDAlpha"></Undefined>
+      <Undefined Name="FirstSlice"></Undefined>
+      <String Name="GenerationAlgorithm"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[Spinal Cord]]></String>
+      <Integer Name="LastModifiedPlane">0</Integer>
+      <Undefined Name="LastSlice"></Undefined>
+      <Integer Name="LoadStatus">1</Integer>
+      <Object ID="MMaterial:Cyan" Class="MMaterial" Name="Material"></Object>
+      <Undefined Name="MaterialCTValue"></Undefined>
+      <String Name="Name"><![CDATA[Spinal Cord]]></String>
+      <String Name="ROIPhysicalProperty"><![CDATA[]]></String>
+      <String Name="ROIPhysicalPropertyValue"><![CDATA[]]></String>
+      <Undefined Name="SearchCTHigh"></Undefined>
+      <Undefined Name="SearchCTLow"></Undefined>
+      <Volume3D Base="Segment" TestAs="CrossOver" width="256" height="256" depth="79" bytesPerPixel="1" Name="Structure pixels">Segment 3.v3d</Volume3D>
+      <Object ID="MStructureType:PatientVolume" Class="MStructureType" Name="StructureType"></Object>
+      <Undefined Name="TCPAlpha"></Undefined>
+      <Undefined Name="TCPBeta"></Undefined>
+      <Undefined Name="TCPGamma"></Undefined>
+      <Undefined Name="ThicknessCm"></Undefined>
+      <Array Name="Transform">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Double Tolerance="0.0156" Name="X res">1.5625</Double>
+      <Integer Name="X size">256</Integer>
+      <Double Tolerance="0.0156" Name="Y res">1.5625</Double>
+      <Integer Name="Y size">256</Integer>
+      <Double Tolerance="0.03" Name="Z res">3</Double>
+      <Integer Name="Z size">79</Integer>
+    </Object>
+    <String Name="Assigned material"><![CDATA[]]></String>
+    <Double Tolerance="0.5" Name="Assigned CT value">NaN</Double>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#9</ID>
+    <Description>Testing left eye structure.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1/MStructure:L Eye, NOS" Class="MStructure" TestAs="MemberEqual" Name="Structure">
+      <String Name="Comment"><![CDATA[]]></String>
+      <Integer Name="DVHLineColor">-16777216</Integer>
+      <Integer Name="DVHLineStyle">0</Integer>
+      <Double Tolerance="0.01" Name="DVHLineWidth">1</Double>
+      <Undefined Name="EUDAlpha"></Undefined>
+      <Undefined Name="FirstSlice"></Undefined>
+      <String Name="GenerationAlgorithm"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[L Eye, NOS]]></String>
+      <Integer Name="LastModifiedPlane">0</Integer>
+      <Undefined Name="LastSlice"></Undefined>
+      <Integer Name="LoadStatus">1</Integer>
+      <Object ID="NIL" Class="MObject" Name="Material"></Object>
+      <Undefined Name="MaterialCTValue"></Undefined>
+      <String Name="Name"><![CDATA[L Eye, NOS]]></String>
+      <String Name="ROIPhysicalProperty"><![CDATA[]]></String>
+      <String Name="ROIPhysicalPropertyValue"><![CDATA[]]></String>
+      <Undefined Name="SearchCTHigh"></Undefined>
+      <Undefined Name="SearchCTLow"></Undefined>
+      <Volume3D Base="Segment" TestAs="CrossOver" width="256" height="256" depth="79" bytesPerPixel="1" Name="Structure pixels">Segment 4.v3d</Volume3D>
+      <Object ID="MStructureType:PatientVolume" Class="MStructureType" Name="StructureType"></Object>
+      <Undefined Name="TCPAlpha"></Undefined>
+      <Undefined Name="TCPBeta"></Undefined>
+      <Undefined Name="TCPGamma"></Undefined>
+      <Undefined Name="ThicknessCm"></Undefined>
+      <Array Name="Transform">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Double Tolerance="0.0156" Name="X res">1.5625</Double>
+      <Integer Name="X size">256</Integer>
+      <Double Tolerance="0.0156" Name="Y res">1.5625</Double>
+      <Integer Name="Y size">256</Integer>
+      <Double Tolerance="0.03" Name="Z res">3</Double>
+      <Integer Name="Z size">79</Integer>
+    </Object>
+    <String Name="Assigned material"><![CDATA[]]></String>
+    <Double Tolerance="0.5" Name="Assigned CT value">NaN</Double>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#10</ID>
+    <Description>Testing right eye structure.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1/MStructure:R. EYE" Class="MStructure" TestAs="MemberEqual" Name="Structure">
+      <String Name="Comment"><![CDATA[]]></String>
+      <Integer Name="DVHLineColor">-16777216</Integer>
+      <Integer Name="DVHLineStyle">0</Integer>
+      <Double Tolerance="0.01" Name="DVHLineWidth">1</Double>
+      <Undefined Name="EUDAlpha"></Undefined>
+      <Undefined Name="FirstSlice"></Undefined>
+      <String Name="GenerationAlgorithm"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[R. EYE]]></String>
+      <Integer Name="LastModifiedPlane">0</Integer>
+      <Undefined Name="LastSlice"></Undefined>
+      <Integer Name="LoadStatus">1</Integer>
+      <Object ID="MMaterial:LemonGreen" Class="MMaterial" Name="Material"></Object>
+      <Undefined Name="MaterialCTValue"></Undefined>
+      <String Name="Name"><![CDATA[R. EYE]]></String>
+      <String Name="ROIPhysicalProperty"><![CDATA[]]></String>
+      <String Name="ROIPhysicalPropertyValue"><![CDATA[]]></String>
+      <Undefined Name="SearchCTHigh"></Undefined>
+      <Undefined Name="SearchCTLow"></Undefined>
+      <Volume3D Base="Segment" TestAs="CrossOver" width="256" height="256" depth="79" bytesPerPixel="1" Name="Structure pixels">Segment 5.v3d</Volume3D>
+      <Object ID="MStructureType:PatientVolume" Class="MStructureType" Name="StructureType"></Object>
+      <Undefined Name="TCPAlpha"></Undefined>
+      <Undefined Name="TCPBeta"></Undefined>
+      <Undefined Name="TCPGamma"></Undefined>
+      <Undefined Name="ThicknessCm"></Undefined>
+      <Array Name="Transform">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Double Tolerance="0.0156" Name="X res">1.5625</Double>
+      <Integer Name="X size">256</Integer>
+      <Double Tolerance="0.0156" Name="Y res">1.5625</Double>
+      <Integer Name="Y size">256</Integer>
+      <Double Tolerance="0.03" Name="Z res">3</Double>
+      <Integer Name="Z size">79</Integer>
+    </Object>
+    <String Name="Assigned material"><![CDATA[]]></String>
+    <Double Tolerance="0.5" Name="Assigned CT value">NaN</Double>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#11</ID>
+    <Description>Testing brain structure.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1/MStructure:Brain, NO..C71.9" Class="MStructure" TestAs="MemberEqual" Name="Structure">
+      <String Name="Comment"><![CDATA[]]></String>
+      <Integer Name="DVHLineColor">-16777216</Integer>
+      <Integer Name="DVHLineStyle">0</Integer>
+      <Double Tolerance="0.01" Name="DVHLineWidth">1</Double>
+      <Undefined Name="EUDAlpha"></Undefined>
+      <Undefined Name="FirstSlice"></Undefined>
+      <String Name="GenerationAlgorithm"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[Brain, NO..C71.9]]></String>
+      <Integer Name="LastModifiedPlane">0</Integer>
+      <Undefined Name="LastSlice"></Undefined>
+      <Integer Name="LoadStatus">1</Integer>
+      <Object ID="MMaterial:Pink" Class="MMaterial" Name="Material"></Object>
+      <Undefined Name="MaterialCTValue"></Undefined>
+      <String Name="Name"><![CDATA[Brain, NO..C71.9]]></String>
+      <String Name="ROIPhysicalProperty"><![CDATA[]]></String>
+      <String Name="ROIPhysicalPropertyValue"><![CDATA[]]></String>
+      <Undefined Name="SearchCTHigh"></Undefined>
+      <Undefined Name="SearchCTLow"></Undefined>
+      <Volume3D Base="Segment" TestAs="CrossOver" width="256" height="256" depth="79" bytesPerPixel="1" Name="Structure pixels">Segment 6.v3d</Volume3D>
+      <Object ID="MStructureType:PatientVolume" Class="MStructureType" Name="StructureType"></Object>
+      <Undefined Name="TCPAlpha"></Undefined>
+      <Undefined Name="TCPBeta"></Undefined>
+      <Undefined Name="TCPGamma"></Undefined>
+      <Undefined Name="ThicknessCm"></Undefined>
+      <Array Name="Transform">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Double Tolerance="0.0156" Name="X res">1.5625</Double>
+      <Integer Name="X size">256</Integer>
+      <Double Tolerance="0.0156" Name="Y res">1.5625</Double>
+      <Integer Name="Y size">256</Integer>
+      <Double Tolerance="0.03" Name="Z res">3</Double>
+      <Integer Name="Z size">79</Integer>
+    </Object>
+    <String Name="Assigned material"><![CDATA[]]></String>
+    <Double Tolerance="0.5" Name="Assigned CT value">NaN</Double>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#12</ID>
+    <Description>Testing normal tissue structure.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1/MStructure:Normal Tissue" Class="MStructure" TestAs="MemberEqual" Name="Structure">
+      <String Name="Comment"><![CDATA[]]></String>
+      <Integer Name="DVHLineColor">-16777216</Integer>
+      <Integer Name="DVHLineStyle">0</Integer>
+      <Double Tolerance="0.01" Name="DVHLineWidth">1</Double>
+      <Undefined Name="EUDAlpha"></Undefined>
+      <Undefined Name="FirstSlice"></Undefined>
+      <String Name="GenerationAlgorithm"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[Normal Tissue]]></String>
+      <Integer Name="LastModifiedPlane">0</Integer>
+      <Undefined Name="LastSlice"></Undefined>
+      <Integer Name="LoadStatus">1</Integer>
+      <Object ID="MMaterial:Brown" Class="MMaterial" Name="Material"></Object>
+      <Undefined Name="MaterialCTValue"></Undefined>
+      <String Name="Name"><![CDATA[Normal Tissue]]></String>
+      <String Name="ROIPhysicalProperty"><![CDATA[]]></String>
+      <String Name="ROIPhysicalPropertyValue"><![CDATA[]]></String>
+      <Undefined Name="SearchCTHigh"></Undefined>
+      <Undefined Name="SearchCTLow"></Undefined>
+      <Volume3D Base="Segment" TestAs="CrossOver" width="256" height="256" depth="79" bytesPerPixel="1" Name="Structure pixels">Segment 7.v3d</Volume3D>
+      <Object ID="MStructureType:PatientVolume" Class="MStructureType" Name="StructureType"></Object>
+      <Undefined Name="TCPAlpha"></Undefined>
+      <Undefined Name="TCPBeta"></Undefined>
+      <Undefined Name="TCPGamma"></Undefined>
+      <Undefined Name="ThicknessCm"></Undefined>
+      <Array Name="Transform">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Double Tolerance="0.0156" Name="X res">1.5625</Double>
+      <Integer Name="X size">256</Integer>
+      <Double Tolerance="0.0156" Name="Y res">1.5625</Double>
+      <Integer Name="Y size">256</Integer>
+      <Double Tolerance="0.03" Name="Z res">3</Double>
+      <Integer Name="Z size">79</Integer>
+    </Object>
+    <String Name="Assigned material"><![CDATA[]]></String>
+    <Double Tolerance="0.5" Name="Assigned CT value">NaN</Double>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#13</ID>
+    <Description>Testing left parotid structure.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1/MStructure:l parotid" Class="MStructure" TestAs="MemberEqual" Name="Structure">
+      <String Name="Comment"><![CDATA[]]></String>
+      <Integer Name="DVHLineColor">-16777216</Integer>
+      <Integer Name="DVHLineStyle">0</Integer>
+      <Double Tolerance="0.01" Name="DVHLineWidth">1</Double>
+      <Undefined Name="EUDAlpha"></Undefined>
+      <Undefined Name="FirstSlice"></Undefined>
+      <String Name="GenerationAlgorithm"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[l parotid]]></String>
+      <Integer Name="LastModifiedPlane">0</Integer>
+      <Undefined Name="LastSlice"></Undefined>
+      <Integer Name="LoadStatus">1</Integer>
+      <Object ID="NIL" Class="MObject" Name="Material"></Object>
+      <Undefined Name="MaterialCTValue"></Undefined>
+      <String Name="Name"><![CDATA[l parotid]]></String>
+      <String Name="ROIPhysicalProperty"><![CDATA[]]></String>
+      <String Name="ROIPhysicalPropertyValue"><![CDATA[]]></String>
+      <Undefined Name="SearchCTHigh"></Undefined>
+      <Undefined Name="SearchCTLow"></Undefined>
+      <Volume3D Base="Segment" TestAs="CrossOver" width="256" height="256" depth="79" bytesPerPixel="1" Name="Structure pixels">Segment 8.v3d</Volume3D>
+      <Object ID="MStructureType:PatientVolume" Class="MStructureType" Name="StructureType"></Object>
+      <Undefined Name="TCPAlpha"></Undefined>
+      <Undefined Name="TCPBeta"></Undefined>
+      <Undefined Name="TCPGamma"></Undefined>
+      <Undefined Name="ThicknessCm"></Undefined>
+      <Array Name="Transform">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Double Tolerance="0.0156" Name="X res">1.5625</Double>
+      <Integer Name="X size">256</Integer>
+      <Double Tolerance="0.0156" Name="Y res">1.5625</Double>
+      <Integer Name="Y size">256</Integer>
+      <Double Tolerance="0.03" Name="Z res">3</Double>
+      <Integer Name="Z size">79</Integer>
+    </Object>
+    <String Name="Assigned material"><![CDATA[]]></String>
+    <Double Tolerance="0.5" Name="Assigned CT value">NaN</Double>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#14</ID>
+    <Description>Testing right parotid structure.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1/MStructure:r. parotid" Class="MStructure" TestAs="MemberEqual" Name="Structure">
+      <String Name="Comment"><![CDATA[]]></String>
+      <Integer Name="DVHLineColor">-16777216</Integer>
+      <Integer Name="DVHLineStyle">0</Integer>
+      <Double Tolerance="0.01" Name="DVHLineWidth">1</Double>
+      <Undefined Name="EUDAlpha"></Undefined>
+      <Undefined Name="FirstSlice"></Undefined>
+      <String Name="GenerationAlgorithm"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[r. parotid]]></String>
+      <Integer Name="LastModifiedPlane">0</Integer>
+      <Undefined Name="LastSlice"></Undefined>
+      <Integer Name="LoadStatus">1</Integer>
+      <Object ID="NIL" Class="MObject" Name="Material"></Object>
+      <Undefined Name="MaterialCTValue"></Undefined>
+      <String Name="Name"><![CDATA[r. parotid]]></String>
+      <String Name="ROIPhysicalProperty"><![CDATA[]]></String>
+      <String Name="ROIPhysicalPropertyValue"><![CDATA[]]></String>
+      <Undefined Name="SearchCTHigh"></Undefined>
+      <Undefined Name="SearchCTLow"></Undefined>
+      <Volume3D Base="Segment" TestAs="CrossOver" width="256" height="256" depth="79" bytesPerPixel="1" Name="Structure pixels">Segment 9.v3d</Volume3D>
+      <Object ID="MStructureType:PatientVolume" Class="MStructureType" Name="StructureType"></Object>
+      <Undefined Name="TCPAlpha"></Undefined>
+      <Undefined Name="TCPBeta"></Undefined>
+      <Undefined Name="TCPGamma"></Undefined>
+      <Undefined Name="ThicknessCm"></Undefined>
+      <Array Name="Transform">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Double Tolerance="0.0156" Name="X res">1.5625</Double>
+      <Integer Name="X size">256</Integer>
+      <Double Tolerance="0.0156" Name="Y res">1.5625</Double>
+      <Integer Name="Y size">256</Integer>
+      <Double Tolerance="0.03" Name="Z res">3</Double>
+      <Integer Name="Z size">79</Integer>
+    </Object>
+    <String Name="Assigned material"><![CDATA[]]></String>
+    <Double Tolerance="0.5" Name="Assigned CT value">NaN</Double>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#15</ID>
+    <Description>Testing nodes structure.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1/MStructure:nodes" Class="MStructure" TestAs="MemberEqual" Name="Structure">
+      <String Name="Comment"><![CDATA[]]></String>
+      <Integer Name="DVHLineColor">-16777216</Integer>
+      <Integer Name="DVHLineStyle">0</Integer>
+      <Double Tolerance="0.01" Name="DVHLineWidth">1</Double>
+      <Undefined Name="EUDAlpha"></Undefined>
+      <Undefined Name="FirstSlice"></Undefined>
+      <String Name="GenerationAlgorithm"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[nodes]]></String>
+      <Integer Name="LastModifiedPlane">0</Integer>
+      <Undefined Name="LastSlice"></Undefined>
+      <Integer Name="LoadStatus">1</Integer>
+      <Object ID="NIL" Class="MObject" Name="Material"></Object>
+      <Undefined Name="MaterialCTValue"></Undefined>
+      <String Name="Name"><![CDATA[nodes]]></String>
+      <String Name="ROIPhysicalProperty"><![CDATA[]]></String>
+      <String Name="ROIPhysicalPropertyValue"><![CDATA[]]></String>
+      <Undefined Name="SearchCTHigh"></Undefined>
+      <Undefined Name="SearchCTLow"></Undefined>
+      <Volume3D Base="Segment" TestAs="CrossOver" width="256" height="256" depth="79" bytesPerPixel="1" Name="Structure pixels">Segment 10.v3d</Volume3D>
+      <Object ID="MStructureType:PatientVolume" Class="MStructureType" Name="StructureType"></Object>
+      <Undefined Name="TCPAlpha"></Undefined>
+      <Undefined Name="TCPBeta"></Undefined>
+      <Undefined Name="TCPGamma"></Undefined>
+      <Undefined Name="ThicknessCm"></Undefined>
+      <Array Name="Transform">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Double Tolerance="0.0156" Name="X res">1.5625</Double>
+      <Integer Name="X size">256</Integer>
+      <Double Tolerance="0.0156" Name="Y res">1.5625</Double>
+      <Integer Name="Y size">256</Integer>
+      <Double Tolerance="0.03" Name="Z res">3</Double>
+      <Integer Name="Z size">79</Integer>
+    </Object>
+    <String Name="Assigned material"><![CDATA[]]></String>
+    <Double Tolerance="0.5" Name="Assigned CT value">NaN</Double>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#16</ID>
+    <Description>Testing optic chiasm structure.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1/MStructure:optic chiasm" Class="MStructure" TestAs="MemberEqual" Name="Structure">
+      <String Name="Comment"><![CDATA[]]></String>
+      <Integer Name="DVHLineColor">-16777216</Integer>
+      <Integer Name="DVHLineStyle">0</Integer>
+      <Double Tolerance="0.01" Name="DVHLineWidth">1</Double>
+      <Undefined Name="EUDAlpha"></Undefined>
+      <Undefined Name="FirstSlice"></Undefined>
+      <String Name="GenerationAlgorithm"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[optic chiasm]]></String>
+      <Integer Name="LastModifiedPlane">0</Integer>
+      <Undefined Name="LastSlice"></Undefined>
+      <Integer Name="LoadStatus">1</Integer>
+      <Object ID="MMaterial:Purple" Class="MMaterial" Name="Material"></Object>
+      <Undefined Name="MaterialCTValue"></Undefined>
+      <String Name="Name"><![CDATA[optic chiasm]]></String>
+      <String Name="ROIPhysicalProperty"><![CDATA[]]></String>
+      <String Name="ROIPhysicalPropertyValue"><![CDATA[]]></String>
+      <Undefined Name="SearchCTHigh"></Undefined>
+      <Undefined Name="SearchCTLow"></Undefined>
+      <Volume3D Base="Segment" TestAs="CrossOver" width="256" height="256" depth="79" bytesPerPixel="1" Name="Structure pixels">Segment 11.v3d</Volume3D>
+      <Object ID="MStructureType:PatientVolume" Class="MStructureType" Name="StructureType"></Object>
+      <Undefined Name="TCPAlpha"></Undefined>
+      <Undefined Name="TCPBeta"></Undefined>
+      <Undefined Name="TCPGamma"></Undefined>
+      <Undefined Name="ThicknessCm"></Undefined>
+      <Array Name="Transform">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Double Tolerance="0.0156" Name="X res">1.5625</Double>
+      <Integer Name="X size">256</Integer>
+      <Double Tolerance="0.0156" Name="Y res">1.5625</Double>
+      <Integer Name="Y size">256</Integer>
+      <Double Tolerance="0.03" Name="Z res">3</Double>
+      <Integer Name="Z size">79</Integer>
+    </Object>
+    <String Name="Assigned material"><![CDATA[]]></String>
+    <Double Tolerance="0.5" Name="Assigned CT value">NaN</Double>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#17</ID>
+    <Description>Testing the real thing structure.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1/MStructure:the real thing" Class="MStructure" TestAs="MemberEqual" Name="Structure">
+      <String Name="Comment"><![CDATA[]]></String>
+      <Integer Name="DVHLineColor">-16777216</Integer>
+      <Integer Name="DVHLineStyle">0</Integer>
+      <Double Tolerance="0.01" Name="DVHLineWidth">1</Double>
+      <Undefined Name="EUDAlpha"></Undefined>
+      <Undefined Name="FirstSlice"></Undefined>
+      <String Name="GenerationAlgorithm"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[the real thing]]></String>
+      <Integer Name="LastModifiedPlane">0</Integer>
+      <Undefined Name="LastSlice"></Undefined>
+      <Integer Name="LoadStatus">1</Integer>
+      <Object ID="MMaterial:Green" Class="MMaterial" Name="Material"></Object>
+      <Undefined Name="MaterialCTValue"></Undefined>
+      <String Name="Name"><![CDATA[the real thing]]></String>
+      <String Name="ROIPhysicalProperty"><![CDATA[]]></String>
+      <String Name="ROIPhysicalPropertyValue"><![CDATA[]]></String>
+      <Undefined Name="SearchCTHigh"></Undefined>
+      <Undefined Name="SearchCTLow"></Undefined>
+      <Volume3D Base="Segment" TestAs="CrossOver" width="256" height="256" depth="79" bytesPerPixel="1" Name="Structure pixels">Segment 12.v3d</Volume3D>
+      <Object ID="MStructureType:PatientVolume" Class="MStructureType" Name="StructureType"></Object>
+      <Undefined Name="TCPAlpha"></Undefined>
+      <Undefined Name="TCPBeta"></Undefined>
+      <Undefined Name="TCPGamma"></Undefined>
+      <Undefined Name="ThicknessCm"></Undefined>
+      <Array Name="Transform">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Double Tolerance="0.0156" Name="X res">1.5625</Double>
+      <Integer Name="X size">256</Integer>
+      <Double Tolerance="0.0156" Name="Y res">1.5625</Double>
+      <Integer Name="Y size">256</Integer>
+      <Double Tolerance="0.03" Name="Z res">3</Double>
+      <Integer Name="Z size">79</Integer>
+    </Object>
+    <String Name="Assigned material"><![CDATA[]]></String>
+    <Double Tolerance="0.5" Name="Assigned CT value">NaN</Double>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#18</ID>
+    <Description>Testing imported Head and Neck plan.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1" Class="MPlanSetup" Name="Plan">
+      <Undefined Name="ApplicationSetupNumber"></Undefined>
+      <String Name="ApplicationSetupType"><![CDATA[]]></String>
+      <Undefined Name="BrachyPdrNoOfPulses"></Undefined>
+      <Undefined Name="BrachyPdrPulseInterval"></Undefined>
+      <String Name="CalculationOptions"><![CDATA[<CalculationDefinitions></CalculationDefinitions>]]></String>
+      <Array Name="Children">
+        <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 1"></ObjectPointer>
+        <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 2"></ObjectPointer>
+        <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 3"></ObjectPointer>
+        <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 4"></ObjectPointer>
+        <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 5"></ObjectPointer>
+        <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 6"></ObjectPointer>
+        <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 7"></ObjectPointer>
+        <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 8"></ObjectPointer>
+        <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 9"></ObjectPointer>
+        <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MDVH:Plan1" visited="false"></ObjectPointer>
+        <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1"></ObjectPointer>
+      </Array>
+      <String Name="Comment"><![CDATA[]]></String>
+      <Array Name="Correlation children"></Array>
+      <Array Name="Correlation parents">
+        <ObjectPointer ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1" visited="false"></ObjectPointer>
+      </Array>
+      <String Name="CreationUserName"><![CDATA[kirsti]]></String>
+      <Object ID="MEquipment:" Class="MEquipment" Name="Equipment"></Object>
+      <String Name="FieldRules"><![CDATA[]]></String>
+      <String Name="ID"><![CDATA[Plan1]]></String>
+      <Integer Name="IrregFlag">0</Integer>
+      <Integer Name="LoadStatus">1</Integer>
+      <Integer Name="MultiFieldOptimization">0</Integer>
+      <String Name="Name"><![CDATA[Plan1]]></String>
+      <Array Name="Parents">
+        <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1" visited="false"></ObjectPointer>
+      </Array>
+      <Object ID="NIL" Class="MObject" Name="PatientSupportDevice"></Object>
+      <String Name="PlanIntent"><![CDATA[]]></String>
+      <Double Tolerance="0.01" Name="PlanNormFactor">1</Double>
+      <String Name="PlanNormMethod"><![CDATA[0\Mode\UserDefined$0\Err\0$0\Value\100.00$]]></String>
+      <Double Tolerance="0.01" Name="PrescribedPercentage">1</Double>
+      <String Name="ProtocolPhaseID"><![CDATA[]]></String>
+      <Double Tolerance="0.2" Name="SkinFlashMargin">20</Double>
+      <String Name="Status"><![CDATA[Unapproved]]></String>
+      <String TestAs="NoTest" Name="StatusDate"><![CDATA[ August 30 2013 01:55:16:410]]></String>
+      <String Name="StatusUserName"><![CDATA[superuser]]></String>
+      <String Name="TreatmentOrientation"><![CDATA[HFS]]></String>
+      <String Name="TreatmentTechnique"><![CDATA[]]></String>
+      <String Name="TreatmentType"><![CDATA[Linac]]></String>
+      <Integer Name="UseGatedNotPersistent">0</Integer>
+      <Array Name="ViewingPlane">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+      </Array>
+      <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01" Name="ViewingPlaneLRCorner">
+        <Double>0</Double>
+        <Double>0</Double>
+        <Double>0</Double>
+      </Array>
+      <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01" Name="ViewingPlaneULCorner">
+        <Double>0</Double>
+        <Double>0</Double>
+        <Double>0</Double>
+      </Array>
+    </Object>
+    <Array Name="Fractionations">
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1" Class="MFractionation">
+        <Array Name="Children">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1/MDoseContribution:"></ObjectPointer>
+        </Array>
+        <String Name="Comment"><![CDATA[]]></String>
+        <String Name="CreationUserName"><![CDATA[superuser]]></String>
+        <String Name="ID"><![CDATA[F1]]></String>
+        <Integer Name="InterfaceStamp">1</Integer>
+        <Integer Name="LoadStatus">1</Integer>
+        <String Name="Name"><![CDATA[]]></String>
+        <Integer Name="NoFractions">28</Integer>
+        <String Name="PredecessorPlanUID"><![CDATA[]]></String>
+        <Undefined Name="PrescribedDosePerFraction"></Undefined>
+        <Boolean Name="SentToIT">FALSE</Boolean>
+        <Undefined Name="StartDelay"></Undefined>
+      </Object>
+    </Array>
+    <Array Name="Ref points">
+      <Object ID="MPatient:UITArcHeadNeck/MPatientVolume:PTV/MRefPoint:PTV" Class="MRefPoint">
+        <String Name="Comment"><![CDATA[]]></String>
+        <Undefined Name="DailyDoseLimit"></Undefined>
+        <String Name="ID"><![CDATA[PTV]]></String>
+        <Integer Name="LoadStatus">1</Integer>
+        <String Name="Name"><![CDATA[]]></String>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MPatientVolume:PTV" visited="false"></ObjectPointer>
+        </Array>
+        <String Name="RefPointType"><![CDATA[]]></String>
+        <Undefined Name="SessionDoseLimit"></Undefined>
+        <Undefined Name="TotalDoseLimit"></Undefined>
+        <Undefined Name="TotalDosePlanned"></Undefined>
+      </Object>
+    </Array>
+    <Array Name="Ref point locs"></Array>
+    <Array Name="DoseContributions">
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1/MDoseContribution:" Class="MDoseContribution">
+        <Array Name="Children">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 1/MRadiationRefPoint:"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 2/MRadiationRefPoint:"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 3/MRadiationRefPoint:"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 4/MRadiationRefPoint:"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 5/MRadiationRefPoint:"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 6/MRadiationRefPoint:"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 7/MRadiationRefPoint:"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 8/MRadiationRefPoint:"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 9/MRadiationRefPoint:"></ObjectPointer>
+        </Array>
+        <String Name="Comment"><![CDATA[]]></String>
+        <Array Name="Correlation children"></Array>
+        <Array Name="Correlation parents"></Array>
+        <Undefined Name="DosePerFraction"></Undefined>
+        <String Name="ID"><![CDATA[]]></String>
+        <Integer Name="LoadStatus">1</Integer>
+        <String Name="Name"><![CDATA[]]></String>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MPatientVolume:PTV/MRefPoint:PTV"></ObjectPointer>
+        </Array>
+        <Integer Name="PrimaryFlag">1</Integer>
+      </Object>
+    </Array>
+    <Array Name="Beams">
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 1" Class="MBeamLinac">
+        <Integer Name="BEVMarginFlag">0</Integer>
+        <Undefined Name="BottomMargin"></Undefined>
+        <Array Name="Children">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 1/MRadiationRefPoint:"></ObjectPointer>
+        </Array>
+        <String Name="CollMode"><![CDATA[AsymmetryX&Y]]></String>
+        <Double Tolerance="0.01" Name="CollRtn">0</Double>
+        <Double Tolerance="0.038" Name="CollX1">-3.8</Double>
+        <Double Tolerance="0.037" Name="CollX2">3.7</Double>
+        <Double Tolerance="0.025" Name="CollY1">-2.5</Double>
+        <Double Tolerance="0.03" Name="CollY2">3</Double>
+        <String Name="Comment"><![CDATA[]]></String>
+        <Array Name="Correlation children"></Array>
+        <Array Name="Correlation parents"></Array>
+        <Double Tolerance="0.01" Name="CouchLat">0</Double>
+        <Double Tolerance="0.01" Name="CouchLng">0</Double>
+        <Double Tolerance="0.01" Name="CouchVrt">0</Double>
+        <String Name="CreationUserName"><![CDATA[superuser]]></String>
+        <String Name="DRRTemplateFileName"><![CDATA[]]></String>
+        <Undefined Name="DirectionPointDistance"></Undefined>
+        <Integer Name="DoseRate">300</Integer>
+        <Integer Name="EllipticalMarginFlag">0</Integer>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MEnergyMode:6X" Class="MEnergyMode" Name="EnergyMode"></Object>
+        <Boolean Name="FieldChanged">FALSE</Boolean>
+        <Integer Name="FieldIdExtension">0</Integer>
+        <Integer Name="FieldOrder">1</Integer>
+        <Undefined Name="FldNormFactor"></Undefined>
+        <String Name="FldNormMethod"><![CDATA[]]></String>
+        <Double Tolerance="1.8" Name="GantryRtn">180</Double>
+        <String Name="GantryRtnDirection"><![CDATA[NONE]]></String>
+        <String Name="GantryRtnExt"><![CDATA[NN]]></String>
+        <String Name="ID"><![CDATA[Field 1]]></String>
+        <Undefined Name="IDUPosLat"></Undefined>
+        <Undefined Name="IDUPosLng"></Undefined>
+        <Undefined Name="IDUPosVrt"></Undefined>
+        <Undefined Name="IDURtn"></Undefined>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.28" Name="IsocenterDICOM">
+          <Double>208.492769</Double>
+          <Double>157.17892</Double>
+          <Double>-890.410777</Double>
+        </Array>
+        <Undefined Name="LeftMargin"></Undefined>
+        <Integer Name="LoadStatus">1</Integer>
+        <Undefined Name="MUCoeff"></Undefined>
+        <Undefined Name="MUCoeffMWOpen"></Undefined>
+        <Undefined Name="MUCoeffMWWedged"></Undefined>
+        <Undefined Name="MUpGy"></Undefined>
+        <Undefined Name="Meterset"></Undefined>
+        <String Name="MotionCompSource"><![CDATA[]]></String>
+        <String Name="MotionCompTechnique"><![CDATA[]]></String>
+        <String Name="Name"><![CDATA[Field 1]]></String>
+        <String Name="Note"><![CDATA[]]></String>
+        <Integer Name="OptimizeCollRtnFlag">0</Integer>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1"></ObjectPointer>
+        </Array>
+        <Double Tolerance="0.01" Name="PatientSupportAngle">0</Double>
+        <Double Tolerance="0.883" Name="PlannedSSD">88.280256</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2" Class="MExternalBeamLinac" Name="RadiationDevice"></Object>
+        <Undefined Name="RefDose"></Undefined>
+        <Undefined Name="RefDoseMWOpen"></Undefined>
+        <Undefined Name="RefDoseMWWedged"></Undefined>
+        <Undefined Name="RightMargin"></Undefined>
+        <Integer Name="SetupField">0</Integer>
+        <String Name="SetupTechnique"><![CDATA[]]></String>
+        <Integer Name="SkinFlashFlag">0</Integer>
+        <Double Tolerance="0.1" Name="SkinFlashValue">10</Double>
+        <Undefined Name="SourceFieldEntryDistance"></Undefined>
+        <Undefined Name="StopAngle"></Undefined>
+        <Double Tolerance="0.01" Name="TableTopPitchAngle">0</Double>
+        <Double Tolerance="0.01" Name="TableTopRollAngle">0</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MTechnique:STATIC" Class="MTechnique" Name="Technique"></Object>
+        <Undefined Name="TimepGy"></Undefined>
+        <Undefined Name="TopMargin"></Undefined>
+        <Undefined Name="TreatmentTime"></Undefined>
+        <Undefined Name="WedgeDose"></Undefined>
+        <Undefined Name="WedgeWeightFactor"></Undefined>
+        <Double Tolerance="0.01" Name="WeightFactor">1</Double>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 2" Class="MBeamLinac">
+        <Integer Name="BEVMarginFlag">0</Integer>
+        <Undefined Name="BottomMargin"></Undefined>
+        <Array Name="Children">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 2/MRadiationRefPoint:"></ObjectPointer>
+        </Array>
+        <String Name="CollMode"><![CDATA[AsymmetryX&Y]]></String>
+        <Double Tolerance="0.01" Name="CollRtn">0</Double>
+        <Double Tolerance="0.043" Name="CollX1">-4.3</Double>
+        <Double Tolerance="0.04" Name="CollX2">4</Double>
+        <Double Tolerance="0.025" Name="CollY1">-2.5</Double>
+        <Double Tolerance="0.03" Name="CollY2">3</Double>
+        <String Name="Comment"><![CDATA[]]></String>
+        <Array Name="Correlation children"></Array>
+        <Array Name="Correlation parents"></Array>
+        <Double Tolerance="0.01" Name="CouchLat">0</Double>
+        <Double Tolerance="0.01" Name="CouchLng">0</Double>
+        <Double Tolerance="0.01" Name="CouchVrt">0</Double>
+        <String Name="CreationUserName"><![CDATA[superuser]]></String>
+        <String Name="DRRTemplateFileName"><![CDATA[]]></String>
+        <Undefined Name="DirectionPointDistance"></Undefined>
+        <Integer Name="DoseRate">300</Integer>
+        <Integer Name="EllipticalMarginFlag">0</Integer>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MEnergyMode:6X" Class="MEnergyMode" Name="EnergyMode"></Object>
+        <Boolean Name="FieldChanged">FALSE</Boolean>
+        <Integer Name="FieldIdExtension">0</Integer>
+        <Integer Name="FieldOrder">2</Integer>
+        <Undefined Name="FldNormFactor"></Undefined>
+        <String Name="FldNormMethod"><![CDATA[]]></String>
+        <Double Tolerance="2.2" Name="GantryRtn">220</Double>
+        <String Name="GantryRtnDirection"><![CDATA[NONE]]></String>
+        <String Name="GantryRtnExt"><![CDATA[NN]]></String>
+        <String Name="ID"><![CDATA[Field 2]]></String>
+        <Undefined Name="IDUPosLat"></Undefined>
+        <Undefined Name="IDUPosLng"></Undefined>
+        <Undefined Name="IDUPosVrt"></Undefined>
+        <Undefined Name="IDURtn"></Undefined>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.28" Name="IsocenterDICOM">
+          <Double>208.492769</Double>
+          <Double>157.17892</Double>
+          <Double>-890.410777</Double>
+        </Array>
+        <Undefined Name="LeftMargin"></Undefined>
+        <Integer Name="LoadStatus">1</Integer>
+        <Undefined Name="MUCoeff"></Undefined>
+        <Undefined Name="MUCoeffMWOpen"></Undefined>
+        <Undefined Name="MUCoeffMWWedged"></Undefined>
+        <Undefined Name="MUpGy"></Undefined>
+        <Undefined Name="Meterset"></Undefined>
+        <String Name="MotionCompSource"><![CDATA[]]></String>
+        <String Name="MotionCompTechnique"><![CDATA[]]></String>
+        <String Name="Name"><![CDATA[Field 2]]></String>
+        <String Name="Note"><![CDATA[]]></String>
+        <Integer Name="OptimizeCollRtnFlag">0</Integer>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1"></ObjectPointer>
+        </Array>
+        <Double Tolerance="0.01" Name="PatientSupportAngle">0</Double>
+        <Double Tolerance="0.895" Name="PlannedSSD">89.48214759999999</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2" Class="MExternalBeamLinac" Name="RadiationDevice"></Object>
+        <Undefined Name="RefDose"></Undefined>
+        <Undefined Name="RefDoseMWOpen"></Undefined>
+        <Undefined Name="RefDoseMWWedged"></Undefined>
+        <Undefined Name="RightMargin"></Undefined>
+        <Integer Name="SetupField">0</Integer>
+        <String Name="SetupTechnique"><![CDATA[]]></String>
+        <Integer Name="SkinFlashFlag">0</Integer>
+        <Double Tolerance="0.1" Name="SkinFlashValue">10</Double>
+        <Undefined Name="SourceFieldEntryDistance"></Undefined>
+        <Undefined Name="StopAngle"></Undefined>
+        <Double Tolerance="0.01" Name="TableTopPitchAngle">0</Double>
+        <Double Tolerance="0.01" Name="TableTopRollAngle">0</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MTechnique:STATIC" Class="MTechnique" Name="Technique"></Object>
+        <Undefined Name="TimepGy"></Undefined>
+        <Undefined Name="TopMargin"></Undefined>
+        <Undefined Name="TreatmentTime"></Undefined>
+        <Undefined Name="WedgeDose"></Undefined>
+        <Undefined Name="WedgeWeightFactor"></Undefined>
+        <Double Tolerance="0.01" Name="WeightFactor">1</Double>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 3" Class="MBeamLinac">
+        <Integer Name="BEVMarginFlag">0</Integer>
+        <Undefined Name="BottomMargin"></Undefined>
+        <Array Name="Children">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 3/MRadiationRefPoint:"></ObjectPointer>
+        </Array>
+        <String Name="CollMode"><![CDATA[AsymmetryX&Y]]></String>
+        <Double Tolerance="0.01" Name="CollRtn">0</Double>
+        <Double Tolerance="0.045" Name="CollX1">-4.5</Double>
+        <Double Tolerance="0.04" Name="CollX2">4</Double>
+        <Double Tolerance="0.025" Name="CollY1">-2.5</Double>
+        <Double Tolerance="0.03" Name="CollY2">3</Double>
+        <String Name="Comment"><![CDATA[]]></String>
+        <Array Name="Correlation children"></Array>
+        <Array Name="Correlation parents"></Array>
+        <Double Tolerance="0.01" Name="CouchLat">0</Double>
+        <Double Tolerance="0.01" Name="CouchLng">0</Double>
+        <Double Tolerance="0.01" Name="CouchVrt">0</Double>
+        <String Name="CreationUserName"><![CDATA[superuser]]></String>
+        <String Name="DRRTemplateFileName"><![CDATA[]]></String>
+        <Undefined Name="DirectionPointDistance"></Undefined>
+        <Integer Name="DoseRate">300</Integer>
+        <Integer Name="EllipticalMarginFlag">0</Integer>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MEnergyMode:6X" Class="MEnergyMode" Name="EnergyMode"></Object>
+        <Boolean Name="FieldChanged">FALSE</Boolean>
+        <Integer Name="FieldIdExtension">0</Integer>
+        <Integer Name="FieldOrder">3</Integer>
+        <Undefined Name="FldNormFactor"></Undefined>
+        <String Name="FldNormMethod"><![CDATA[]]></String>
+        <Double Tolerance="2.6" Name="GantryRtn">260</Double>
+        <String Name="GantryRtnDirection"><![CDATA[NONE]]></String>
+        <String Name="GantryRtnExt"><![CDATA[NN]]></String>
+        <String Name="ID"><![CDATA[Field 3]]></String>
+        <Undefined Name="IDUPosLat"></Undefined>
+        <Undefined Name="IDUPosLng"></Undefined>
+        <Undefined Name="IDUPosVrt"></Undefined>
+        <Undefined Name="IDURtn"></Undefined>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.28" Name="IsocenterDICOM">
+          <Double>208.492769</Double>
+          <Double>157.17892</Double>
+          <Double>-890.410777</Double>
+        </Array>
+        <Undefined Name="LeftMargin"></Undefined>
+        <Integer Name="LoadStatus">1</Integer>
+        <Undefined Name="MUCoeff"></Undefined>
+        <Undefined Name="MUCoeffMWOpen"></Undefined>
+        <Undefined Name="MUCoeffMWWedged"></Undefined>
+        <Undefined Name="MUpGy"></Undefined>
+        <Undefined Name="Meterset"></Undefined>
+        <String Name="MotionCompSource"><![CDATA[]]></String>
+        <String Name="MotionCompTechnique"><![CDATA[]]></String>
+        <String Name="Name"><![CDATA[Field 3]]></String>
+        <String Name="Note"><![CDATA[]]></String>
+        <Integer Name="OptimizeCollRtnFlag">0</Integer>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1"></ObjectPointer>
+        </Array>
+        <Double Tolerance="0.01" Name="PatientSupportAngle">0</Double>
+        <Double Tolerance="0.919" Name="PlannedSSD">91.8582614</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2" Class="MExternalBeamLinac" Name="RadiationDevice"></Object>
+        <Undefined Name="RefDose"></Undefined>
+        <Undefined Name="RefDoseMWOpen"></Undefined>
+        <Undefined Name="RefDoseMWWedged"></Undefined>
+        <Undefined Name="RightMargin"></Undefined>
+        <Integer Name="SetupField">0</Integer>
+        <String Name="SetupTechnique"><![CDATA[]]></String>
+        <Integer Name="SkinFlashFlag">0</Integer>
+        <Double Tolerance="0.1" Name="SkinFlashValue">10</Double>
+        <Undefined Name="SourceFieldEntryDistance"></Undefined>
+        <Undefined Name="StopAngle"></Undefined>
+        <Double Tolerance="0.01" Name="TableTopPitchAngle">0</Double>
+        <Double Tolerance="0.01" Name="TableTopRollAngle">0</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MTechnique:STATIC" Class="MTechnique" Name="Technique"></Object>
+        <Undefined Name="TimepGy"></Undefined>
+        <Undefined Name="TopMargin"></Undefined>
+        <Undefined Name="TreatmentTime"></Undefined>
+        <Undefined Name="WedgeDose"></Undefined>
+        <Undefined Name="WedgeWeightFactor"></Undefined>
+        <Double Tolerance="0.01" Name="WeightFactor">1</Double>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 4" Class="MBeamLinac">
+        <Integer Name="BEVMarginFlag">0</Integer>
+        <Undefined Name="BottomMargin"></Undefined>
+        <Array Name="Children">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 4/MRadiationRefPoint:"></ObjectPointer>
+        </Array>
+        <String Name="CollMode"><![CDATA[AsymmetryX&Y]]></String>
+        <Double Tolerance="0.01" Name="CollRtn">0</Double>
+        <Double Tolerance="0.05" Name="CollX1">-5</Double>
+        <Double Tolerance="0.022" Name="CollX2">2.2</Double>
+        <Double Tolerance="0.025" Name="CollY1">-2.5</Double>
+        <Double Tolerance="0.03" Name="CollY2">3</Double>
+        <String Name="Comment"><![CDATA[]]></String>
+        <Array Name="Correlation children"></Array>
+        <Array Name="Correlation parents"></Array>
+        <Double Tolerance="0.01" Name="CouchLat">0</Double>
+        <Double Tolerance="0.01" Name="CouchLng">0</Double>
+        <Double Tolerance="0.01" Name="CouchVrt">0</Double>
+        <String Name="CreationUserName"><![CDATA[superuser]]></String>
+        <String Name="DRRTemplateFileName"><![CDATA[]]></String>
+        <Undefined Name="DirectionPointDistance"></Undefined>
+        <Integer Name="DoseRate">300</Integer>
+        <Integer Name="EllipticalMarginFlag">0</Integer>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MEnergyMode:6X" Class="MEnergyMode" Name="EnergyMode"></Object>
+        <Boolean Name="FieldChanged">FALSE</Boolean>
+        <Integer Name="FieldIdExtension">0</Integer>
+        <Integer Name="FieldOrder">4</Integer>
+        <Undefined Name="FldNormFactor"></Undefined>
+        <String Name="FldNormMethod"><![CDATA[]]></String>
+        <Double Tolerance="3" Name="GantryRtn">300</Double>
+        <String Name="GantryRtnDirection"><![CDATA[NONE]]></String>
+        <String Name="GantryRtnExt"><![CDATA[NN]]></String>
+        <String Name="ID"><![CDATA[Field 4]]></String>
+        <Undefined Name="IDUPosLat"></Undefined>
+        <Undefined Name="IDUPosLng"></Undefined>
+        <Undefined Name="IDUPosVrt"></Undefined>
+        <Undefined Name="IDURtn"></Undefined>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.28" Name="IsocenterDICOM">
+          <Double>208.492769</Double>
+          <Double>157.17892</Double>
+          <Double>-890.410777</Double>
+        </Array>
+        <Undefined Name="LeftMargin"></Undefined>
+        <Integer Name="LoadStatus">1</Integer>
+        <Undefined Name="MUCoeff"></Undefined>
+        <Undefined Name="MUCoeffMWOpen"></Undefined>
+        <Undefined Name="MUCoeffMWWedged"></Undefined>
+        <Undefined Name="MUpGy"></Undefined>
+        <Undefined Name="Meterset"></Undefined>
+        <String Name="MotionCompSource"><![CDATA[]]></String>
+        <String Name="MotionCompTechnique"><![CDATA[]]></String>
+        <String Name="Name"><![CDATA[Field 4]]></String>
+        <String Name="Note"><![CDATA[]]></String>
+        <Integer Name="OptimizeCollRtnFlag">0</Integer>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1"></ObjectPointer>
+        </Array>
+        <Double Tolerance="0.01" Name="PatientSupportAngle">0</Double>
+        <Double Tolerance="0.931" Name="PlannedSSD">93.1251086</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2" Class="MExternalBeamLinac" Name="RadiationDevice"></Object>
+        <Undefined Name="RefDose"></Undefined>
+        <Undefined Name="RefDoseMWOpen"></Undefined>
+        <Undefined Name="RefDoseMWWedged"></Undefined>
+        <Undefined Name="RightMargin"></Undefined>
+        <Integer Name="SetupField">0</Integer>
+        <String Name="SetupTechnique"><![CDATA[]]></String>
+        <Integer Name="SkinFlashFlag">0</Integer>
+        <Double Tolerance="0.1" Name="SkinFlashValue">10</Double>
+        <Undefined Name="SourceFieldEntryDistance"></Undefined>
+        <Undefined Name="StopAngle"></Undefined>
+        <Double Tolerance="0.01" Name="TableTopPitchAngle">0</Double>
+        <Double Tolerance="0.01" Name="TableTopRollAngle">0</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MTechnique:STATIC" Class="MTechnique" Name="Technique"></Object>
+        <Undefined Name="TimepGy"></Undefined>
+        <Undefined Name="TopMargin"></Undefined>
+        <Undefined Name="TreatmentTime"></Undefined>
+        <Undefined Name="WedgeDose"></Undefined>
+        <Undefined Name="WedgeWeightFactor"></Undefined>
+        <Double Tolerance="0.01" Name="WeightFactor">1</Double>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 5" Class="MBeamLinac">
+        <Integer Name="BEVMarginFlag">0</Integer>
+        <Undefined Name="BottomMargin"></Undefined>
+        <Array Name="Children">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 5/MRadiationRefPoint:"></ObjectPointer>
+        </Array>
+        <String Name="CollMode"><![CDATA[AsymmetryX&Y]]></String>
+        <Double Tolerance="0.01" Name="CollRtn">0</Double>
+        <Double Tolerance="0.041" Name="CollX1">-4.1</Double>
+        <Double Tolerance="0.037" Name="CollX2">3.7</Double>
+        <Double Tolerance="0.025" Name="CollY1">-2.5</Double>
+        <Double Tolerance="0.03" Name="CollY2">3</Double>
+        <String Name="Comment"><![CDATA[]]></String>
+        <Array Name="Correlation children"></Array>
+        <Array Name="Correlation parents"></Array>
+        <Double Tolerance="0.01" Name="CouchLat">0</Double>
+        <Double Tolerance="0.01" Name="CouchLng">0</Double>
+        <Double Tolerance="0.01" Name="CouchVrt">0</Double>
+        <String Name="CreationUserName"><![CDATA[superuser]]></String>
+        <String Name="DRRTemplateFileName"><![CDATA[]]></String>
+        <Undefined Name="DirectionPointDistance"></Undefined>
+        <Integer Name="DoseRate">300</Integer>
+        <Integer Name="EllipticalMarginFlag">0</Integer>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MEnergyMode:6X" Class="MEnergyMode" Name="EnergyMode"></Object>
+        <Boolean Name="FieldChanged">FALSE</Boolean>
+        <Integer Name="FieldIdExtension">0</Integer>
+        <Integer Name="FieldOrder">5</Integer>
+        <Undefined Name="FldNormFactor"></Undefined>
+        <String Name="FldNormMethod"><![CDATA[]]></String>
+        <Double Tolerance="3.4" Name="GantryRtn">340</Double>
+        <String Name="GantryRtnDirection"><![CDATA[NONE]]></String>
+        <String Name="GantryRtnExt"><![CDATA[NN]]></String>
+        <String Name="ID"><![CDATA[Field 5]]></String>
+        <Undefined Name="IDUPosLat"></Undefined>
+        <Undefined Name="IDUPosLng"></Undefined>
+        <Undefined Name="IDUPosVrt"></Undefined>
+        <Undefined Name="IDURtn"></Undefined>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.28" Name="IsocenterDICOM">
+          <Double>208.492769</Double>
+          <Double>157.17892</Double>
+          <Double>-890.410777</Double>
+        </Array>
+        <Undefined Name="LeftMargin"></Undefined>
+        <Integer Name="LoadStatus">1</Integer>
+        <Undefined Name="MUCoeff"></Undefined>
+        <Undefined Name="MUCoeffMWOpen"></Undefined>
+        <Undefined Name="MUCoeffMWWedged"></Undefined>
+        <Undefined Name="MUpGy"></Undefined>
+        <Undefined Name="Meterset"></Undefined>
+        <String Name="MotionCompSource"><![CDATA[]]></String>
+        <String Name="MotionCompTechnique"><![CDATA[]]></String>
+        <String Name="Name"><![CDATA[Field 5]]></String>
+        <String Name="Note"><![CDATA[]]></String>
+        <Integer Name="OptimizeCollRtnFlag">0</Integer>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1"></ObjectPointer>
+        </Array>
+        <Double Tolerance="0.01" Name="PatientSupportAngle">0</Double>
+        <Double Tolerance="0.947" Name="PlannedSSD">94.7281704</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2" Class="MExternalBeamLinac" Name="RadiationDevice"></Object>
+        <Undefined Name="RefDose"></Undefined>
+        <Undefined Name="RefDoseMWOpen"></Undefined>
+        <Undefined Name="RefDoseMWWedged"></Undefined>
+        <Undefined Name="RightMargin"></Undefined>
+        <Integer Name="SetupField">0</Integer>
+        <String Name="SetupTechnique"><![CDATA[]]></String>
+        <Integer Name="SkinFlashFlag">0</Integer>
+        <Double Tolerance="0.1" Name="SkinFlashValue">10</Double>
+        <Undefined Name="SourceFieldEntryDistance"></Undefined>
+        <Undefined Name="StopAngle"></Undefined>
+        <Double Tolerance="0.01" Name="TableTopPitchAngle">0</Double>
+        <Double Tolerance="0.01" Name="TableTopRollAngle">0</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MTechnique:STATIC" Class="MTechnique" Name="Technique"></Object>
+        <Undefined Name="TimepGy"></Undefined>
+        <Undefined Name="TopMargin"></Undefined>
+        <Undefined Name="TreatmentTime"></Undefined>
+        <Undefined Name="WedgeDose"></Undefined>
+        <Undefined Name="WedgeWeightFactor"></Undefined>
+        <Double Tolerance="0.01" Name="WeightFactor">1</Double>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 6" Class="MBeamLinac">
+        <Integer Name="BEVMarginFlag">0</Integer>
+        <Undefined Name="BottomMargin"></Undefined>
+        <Array Name="Children">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 6/MRadiationRefPoint:"></ObjectPointer>
+        </Array>
+        <String Name="CollMode"><![CDATA[AsymmetryX&Y]]></String>
+        <Double Tolerance="0.01" Name="CollRtn">0</Double>
+        <Double Tolerance="0.04" Name="CollX1">-4</Double>
+        <Double Tolerance="0.047" Name="CollX2">4.7</Double>
+        <Double Tolerance="0.025" Name="CollY1">-2.5</Double>
+        <Double Tolerance="0.03" Name="CollY2">3</Double>
+        <String Name="Comment"><![CDATA[]]></String>
+        <Array Name="Correlation children"></Array>
+        <Array Name="Correlation parents"></Array>
+        <Double Tolerance="0.01" Name="CouchLat">0</Double>
+        <Double Tolerance="0.01" Name="CouchLng">0</Double>
+        <Double Tolerance="0.01" Name="CouchVrt">0</Double>
+        <String Name="CreationUserName"><![CDATA[superuser]]></String>
+        <String Name="DRRTemplateFileName"><![CDATA[]]></String>
+        <Undefined Name="DirectionPointDistance"></Undefined>
+        <Integer Name="DoseRate">300</Integer>
+        <Integer Name="EllipticalMarginFlag">0</Integer>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MEnergyMode:6X" Class="MEnergyMode" Name="EnergyMode"></Object>
+        <Boolean Name="FieldChanged">FALSE</Boolean>
+        <Integer Name="FieldIdExtension">0</Integer>
+        <Integer Name="FieldOrder">6</Integer>
+        <Undefined Name="FldNormFactor"></Undefined>
+        <String Name="FldNormMethod"><![CDATA[]]></String>
+        <Double Tolerance="1.4" Name="GantryRtn">140</Double>
+        <String Name="GantryRtnDirection"><![CDATA[NONE]]></String>
+        <String Name="GantryRtnExt"><![CDATA[NN]]></String>
+        <String Name="ID"><![CDATA[Field 6]]></String>
+        <Undefined Name="IDUPosLat"></Undefined>
+        <Undefined Name="IDUPosLng"></Undefined>
+        <Undefined Name="IDUPosVrt"></Undefined>
+        <Undefined Name="IDURtn"></Undefined>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.28" Name="IsocenterDICOM">
+          <Double>208.492769</Double>
+          <Double>157.17892</Double>
+          <Double>-890.410777</Double>
+        </Array>
+        <Undefined Name="LeftMargin"></Undefined>
+        <Integer Name="LoadStatus">1</Integer>
+        <Undefined Name="MUCoeff"></Undefined>
+        <Undefined Name="MUCoeffMWOpen"></Undefined>
+        <Undefined Name="MUCoeffMWWedged"></Undefined>
+        <Undefined Name="MUpGy"></Undefined>
+        <Undefined Name="Meterset"></Undefined>
+        <String Name="MotionCompSource"><![CDATA[]]></String>
+        <String Name="MotionCompTechnique"><![CDATA[]]></String>
+        <String Name="Name"><![CDATA[Field 6]]></String>
+        <String Name="Note"><![CDATA[]]></String>
+        <Integer Name="OptimizeCollRtnFlag">0</Integer>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1"></ObjectPointer>
+        </Array>
+        <Double Tolerance="0.01" Name="PatientSupportAngle">0</Double>
+        <Double Tolerance="0.899" Name="PlannedSSD">89.85789539999999</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2" Class="MExternalBeamLinac" Name="RadiationDevice"></Object>
+        <Undefined Name="RefDose"></Undefined>
+        <Undefined Name="RefDoseMWOpen"></Undefined>
+        <Undefined Name="RefDoseMWWedged"></Undefined>
+        <Undefined Name="RightMargin"></Undefined>
+        <Integer Name="SetupField">0</Integer>
+        <String Name="SetupTechnique"><![CDATA[]]></String>
+        <Integer Name="SkinFlashFlag">0</Integer>
+        <Double Tolerance="0.1" Name="SkinFlashValue">10</Double>
+        <Undefined Name="SourceFieldEntryDistance"></Undefined>
+        <Undefined Name="StopAngle"></Undefined>
+        <Double Tolerance="0.01" Name="TableTopPitchAngle">0</Double>
+        <Double Tolerance="0.01" Name="TableTopRollAngle">0</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MTechnique:STATIC" Class="MTechnique" Name="Technique"></Object>
+        <Undefined Name="TimepGy"></Undefined>
+        <Undefined Name="TopMargin"></Undefined>
+        <Undefined Name="TreatmentTime"></Undefined>
+        <Undefined Name="WedgeDose"></Undefined>
+        <Undefined Name="WedgeWeightFactor"></Undefined>
+        <Double Tolerance="0.01" Name="WeightFactor">1</Double>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 7" Class="MBeamLinac">
+        <Integer Name="BEVMarginFlag">0</Integer>
+        <Undefined Name="BottomMargin"></Undefined>
+        <Array Name="Children">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 7/MRadiationRefPoint:"></ObjectPointer>
+        </Array>
+        <String Name="CollMode"><![CDATA[AsymmetryX&Y]]></String>
+        <Double Tolerance="0.01" Name="CollRtn">0</Double>
+        <Double Tolerance="0.035" Name="CollX1">-3.5</Double>
+        <Double Tolerance="0.044" Name="CollX2">4.4</Double>
+        <Double Tolerance="0.025" Name="CollY1">-2.5</Double>
+        <Double Tolerance="0.03" Name="CollY2">3</Double>
+        <String Name="Comment"><![CDATA[]]></String>
+        <Array Name="Correlation children"></Array>
+        <Array Name="Correlation parents"></Array>
+        <Double Tolerance="0.01" Name="CouchLat">0</Double>
+        <Double Tolerance="0.01" Name="CouchLng">0</Double>
+        <Double Tolerance="0.01" Name="CouchVrt">0</Double>
+        <String Name="CreationUserName"><![CDATA[superuser]]></String>
+        <String Name="DRRTemplateFileName"><![CDATA[]]></String>
+        <Undefined Name="DirectionPointDistance"></Undefined>
+        <Integer Name="DoseRate">300</Integer>
+        <Integer Name="EllipticalMarginFlag">0</Integer>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MEnergyMode:6X" Class="MEnergyMode" Name="EnergyMode"></Object>
+        <Boolean Name="FieldChanged">FALSE</Boolean>
+        <Integer Name="FieldIdExtension">0</Integer>
+        <Integer Name="FieldOrder">7</Integer>
+        <Undefined Name="FldNormFactor"></Undefined>
+        <String Name="FldNormMethod"><![CDATA[]]></String>
+        <Double Tolerance="1" Name="GantryRtn">100</Double>
+        <String Name="GantryRtnDirection"><![CDATA[NONE]]></String>
+        <String Name="GantryRtnExt"><![CDATA[NN]]></String>
+        <String Name="ID"><![CDATA[Field 7]]></String>
+        <Undefined Name="IDUPosLat"></Undefined>
+        <Undefined Name="IDUPosLng"></Undefined>
+        <Undefined Name="IDUPosVrt"></Undefined>
+        <Undefined Name="IDURtn"></Undefined>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.28" Name="IsocenterDICOM">
+          <Double>208.492769</Double>
+          <Double>157.17892</Double>
+          <Double>-890.410777</Double>
+        </Array>
+        <Undefined Name="LeftMargin"></Undefined>
+        <Integer Name="LoadStatus">1</Integer>
+        <Undefined Name="MUCoeff"></Undefined>
+        <Undefined Name="MUCoeffMWOpen"></Undefined>
+        <Undefined Name="MUCoeffMWWedged"></Undefined>
+        <Undefined Name="MUpGy"></Undefined>
+        <Undefined Name="Meterset"></Undefined>
+        <String Name="MotionCompSource"><![CDATA[]]></String>
+        <String Name="MotionCompTechnique"><![CDATA[]]></String>
+        <String Name="Name"><![CDATA[Field 7]]></String>
+        <String Name="Note"><![CDATA[]]></String>
+        <Integer Name="OptimizeCollRtnFlag">0</Integer>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1"></ObjectPointer>
+        </Array>
+        <Double Tolerance="0.01" Name="PatientSupportAngle">0</Double>
+        <Double Tolerance="0.922" Name="PlannedSSD">92.1862187</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2" Class="MExternalBeamLinac" Name="RadiationDevice"></Object>
+        <Undefined Name="RefDose"></Undefined>
+        <Undefined Name="RefDoseMWOpen"></Undefined>
+        <Undefined Name="RefDoseMWWedged"></Undefined>
+        <Undefined Name="RightMargin"></Undefined>
+        <Integer Name="SetupField">0</Integer>
+        <String Name="SetupTechnique"><![CDATA[]]></String>
+        <Integer Name="SkinFlashFlag">0</Integer>
+        <Double Tolerance="0.1" Name="SkinFlashValue">10</Double>
+        <Undefined Name="SourceFieldEntryDistance"></Undefined>
+        <Undefined Name="StopAngle"></Undefined>
+        <Double Tolerance="0.01" Name="TableTopPitchAngle">0</Double>
+        <Double Tolerance="0.01" Name="TableTopRollAngle">0</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MTechnique:STATIC" Class="MTechnique" Name="Technique"></Object>
+        <Undefined Name="TimepGy"></Undefined>
+        <Undefined Name="TopMargin"></Undefined>
+        <Undefined Name="TreatmentTime"></Undefined>
+        <Undefined Name="WedgeDose"></Undefined>
+        <Undefined Name="WedgeWeightFactor"></Undefined>
+        <Double Tolerance="0.01" Name="WeightFactor">1</Double>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 8" Class="MBeamLinac">
+        <Integer Name="BEVMarginFlag">0</Integer>
+        <Undefined Name="BottomMargin"></Undefined>
+        <Array Name="Children">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 8/MRadiationRefPoint:"></ObjectPointer>
+        </Array>
+        <String Name="CollMode"><![CDATA[AsymmetryX&Y]]></String>
+        <Double Tolerance="0.01" Name="CollRtn">0</Double>
+        <Double Tolerance="0.037" Name="CollX1">-3.7</Double>
+        <Double Tolerance="0.045" Name="CollX2">4.5</Double>
+        <Double Tolerance="0.025" Name="CollY1">-2.5</Double>
+        <Double Tolerance="0.03" Name="CollY2">3</Double>
+        <String Name="Comment"><![CDATA[]]></String>
+        <Array Name="Correlation children"></Array>
+        <Array Name="Correlation parents"></Array>
+        <Double Tolerance="0.01" Name="CouchLat">0</Double>
+        <Double Tolerance="0.01" Name="CouchLng">0</Double>
+        <Double Tolerance="0.01" Name="CouchVrt">0</Double>
+        <String Name="CreationUserName"><![CDATA[superuser]]></String>
+        <String Name="DRRTemplateFileName"><![CDATA[]]></String>
+        <Undefined Name="DirectionPointDistance"></Undefined>
+        <Integer Name="DoseRate">300</Integer>
+        <Integer Name="EllipticalMarginFlag">0</Integer>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MEnergyMode:6X" Class="MEnergyMode" Name="EnergyMode"></Object>
+        <Boolean Name="FieldChanged">FALSE</Boolean>
+        <Integer Name="FieldIdExtension">0</Integer>
+        <Integer Name="FieldOrder">8</Integer>
+        <Undefined Name="FldNormFactor"></Undefined>
+        <String Name="FldNormMethod"><![CDATA[]]></String>
+        <Double Tolerance="0.6" Name="GantryRtn">60</Double>
+        <String Name="GantryRtnDirection"><![CDATA[NONE]]></String>
+        <String Name="GantryRtnExt"><![CDATA[NN]]></String>
+        <String Name="ID"><![CDATA[Field 8]]></String>
+        <Undefined Name="IDUPosLat"></Undefined>
+        <Undefined Name="IDUPosLng"></Undefined>
+        <Undefined Name="IDUPosVrt"></Undefined>
+        <Undefined Name="IDURtn"></Undefined>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.28" Name="IsocenterDICOM">
+          <Double>208.492769</Double>
+          <Double>157.17892</Double>
+          <Double>-890.410777</Double>
+        </Array>
+        <Undefined Name="LeftMargin"></Undefined>
+        <Integer Name="LoadStatus">1</Integer>
+        <Undefined Name="MUCoeff"></Undefined>
+        <Undefined Name="MUCoeffMWOpen"></Undefined>
+        <Undefined Name="MUCoeffMWWedged"></Undefined>
+        <Undefined Name="MUpGy"></Undefined>
+        <Undefined Name="Meterset"></Undefined>
+        <String Name="MotionCompSource"><![CDATA[]]></String>
+        <String Name="MotionCompTechnique"><![CDATA[]]></String>
+        <String Name="Name"><![CDATA[Field 8]]></String>
+        <String Name="Note"><![CDATA[]]></String>
+        <Integer Name="OptimizeCollRtnFlag">0</Integer>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1"></ObjectPointer>
+        </Array>
+        <Double Tolerance="0.01" Name="PatientSupportAngle">0</Double>
+        <Double Tolerance="0.934" Name="PlannedSSD">93.3829042</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2" Class="MExternalBeamLinac" Name="RadiationDevice"></Object>
+        <Undefined Name="RefDose"></Undefined>
+        <Undefined Name="RefDoseMWOpen"></Undefined>
+        <Undefined Name="RefDoseMWWedged"></Undefined>
+        <Undefined Name="RightMargin"></Undefined>
+        <Integer Name="SetupField">0</Integer>
+        <String Name="SetupTechnique"><![CDATA[]]></String>
+        <Integer Name="SkinFlashFlag">0</Integer>
+        <Double Tolerance="0.1" Name="SkinFlashValue">10</Double>
+        <Undefined Name="SourceFieldEntryDistance"></Undefined>
+        <Undefined Name="StopAngle"></Undefined>
+        <Double Tolerance="0.01" Name="TableTopPitchAngle">0</Double>
+        <Double Tolerance="0.01" Name="TableTopRollAngle">0</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MTechnique:STATIC" Class="MTechnique" Name="Technique"></Object>
+        <Undefined Name="TimepGy"></Undefined>
+        <Undefined Name="TopMargin"></Undefined>
+        <Undefined Name="TreatmentTime"></Undefined>
+        <Undefined Name="WedgeDose"></Undefined>
+        <Undefined Name="WedgeWeightFactor"></Undefined>
+        <Double Tolerance="0.01" Name="WeightFactor">1</Double>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 9" Class="MBeamLinac">
+        <Integer Name="BEVMarginFlag">0</Integer>
+        <Undefined Name="BottomMargin"></Undefined>
+        <Array Name="Children">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 9/MRadiationRefPoint:"></ObjectPointer>
+        </Array>
+        <String Name="CollMode"><![CDATA[AsymmetryX&Y]]></String>
+        <Double Tolerance="0.01" Name="CollRtn">0</Double>
+        <Double Tolerance="0.04" Name="CollX1">-4</Double>
+        <Double Tolerance="0.036" Name="CollX2">3.6</Double>
+        <Double Tolerance="0.025" Name="CollY1">-2.5</Double>
+        <Double Tolerance="0.03" Name="CollY2">3</Double>
+        <String Name="Comment"><![CDATA[]]></String>
+        <Array Name="Correlation children"></Array>
+        <Array Name="Correlation parents"></Array>
+        <Double Tolerance="0.01" Name="CouchLat">0</Double>
+        <Double Tolerance="0.01" Name="CouchLng">0</Double>
+        <Double Tolerance="0.01" Name="CouchVrt">0</Double>
+        <String Name="CreationUserName"><![CDATA[superuser]]></String>
+        <String Name="DRRTemplateFileName"><![CDATA[]]></String>
+        <Undefined Name="DirectionPointDistance"></Undefined>
+        <Integer Name="DoseRate">300</Integer>
+        <Integer Name="EllipticalMarginFlag">0</Integer>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MEnergyMode:6X" Class="MEnergyMode" Name="EnergyMode"></Object>
+        <Boolean Name="FieldChanged">FALSE</Boolean>
+        <Integer Name="FieldIdExtension">0</Integer>
+        <Integer Name="FieldOrder">9</Integer>
+        <Undefined Name="FldNormFactor"></Undefined>
+        <String Name="FldNormMethod"><![CDATA[]]></String>
+        <Double Tolerance="0.2" Name="GantryRtn">20</Double>
+        <String Name="GantryRtnDirection"><![CDATA[NONE]]></String>
+        <String Name="GantryRtnExt"><![CDATA[NN]]></String>
+        <String Name="ID"><![CDATA[Field 9]]></String>
+        <Undefined Name="IDUPosLat"></Undefined>
+        <Undefined Name="IDUPosLng"></Undefined>
+        <Undefined Name="IDUPosVrt"></Undefined>
+        <Undefined Name="IDURtn"></Undefined>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.28" Name="IsocenterDICOM">
+          <Double>208.492769</Double>
+          <Double>157.17892</Double>
+          <Double>-890.410777</Double>
+        </Array>
+        <Undefined Name="LeftMargin"></Undefined>
+        <Integer Name="LoadStatus">1</Integer>
+        <Undefined Name="MUCoeff"></Undefined>
+        <Undefined Name="MUCoeffMWOpen"></Undefined>
+        <Undefined Name="MUCoeffMWWedged"></Undefined>
+        <Undefined Name="MUpGy"></Undefined>
+        <Undefined Name="Meterset"></Undefined>
+        <String Name="MotionCompSource"><![CDATA[]]></String>
+        <String Name="MotionCompTechnique"><![CDATA[]]></String>
+        <String Name="Name"><![CDATA[Field 9]]></String>
+        <String Name="Note"><![CDATA[]]></String>
+        <Integer Name="OptimizeCollRtnFlag">0</Integer>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1"></ObjectPointer>
+        </Array>
+        <Double Tolerance="0.01" Name="PatientSupportAngle">0</Double>
+        <Double Tolerance="0.948" Name="PlannedSSD">94.82167100000001</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2" Class="MExternalBeamLinac" Name="RadiationDevice"></Object>
+        <Undefined Name="RefDose"></Undefined>
+        <Undefined Name="RefDoseMWOpen"></Undefined>
+        <Undefined Name="RefDoseMWWedged"></Undefined>
+        <Undefined Name="RightMargin"></Undefined>
+        <Integer Name="SetupField">0</Integer>
+        <String Name="SetupTechnique"><![CDATA[]]></String>
+        <Integer Name="SkinFlashFlag">0</Integer>
+        <Double Tolerance="0.1" Name="SkinFlashValue">10</Double>
+        <Undefined Name="SourceFieldEntryDistance"></Undefined>
+        <Undefined Name="StopAngle"></Undefined>
+        <Double Tolerance="0.01" Name="TableTopPitchAngle">0</Double>
+        <Double Tolerance="0.01" Name="TableTopRollAngle">0</Double>
+        <Object ID="MExternalBeamLinac:UITVarian2300CD2/MTechnique:STATIC" Class="MTechnique" Name="Technique"></Object>
+        <Undefined Name="TimepGy"></Undefined>
+        <Undefined Name="TopMargin"></Undefined>
+        <Undefined Name="TreatmentTime"></Undefined>
+        <Undefined Name="WedgeDose"></Undefined>
+        <Undefined Name="WedgeWeightFactor"></Undefined>
+        <Double Tolerance="0.01" Name="WeightFactor">1</Double>
+      </Object>
+    </Array>
+    <Array Name="BeamRefPoints">
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 1/MRadiationRefPoint:" Class="MRadiationRefPoint">
+        <String Name="Comment"><![CDATA[]]></String>
+        <Undefined Name="Depth"></Undefined>
+        <Integer Name="DominantFieldFlag">0</Integer>
+        <Integer Name="DoseSpecificationFlag">1</Integer>
+        <Undefined Name="FieldDose"></Undefined>
+        <String Name="ID"><![CDATA[]]></String>
+        <Integer Name="LoadStatus">1</Integer>
+        <String Name="Name"><![CDATA[]]></String>
+        <Undefined Name="PSSD"></Undefined>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 1"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1/MDoseContribution:"></ObjectPointer>
+        </Array>
+        <Undefined Name="XLoc"></Undefined>
+        <Undefined Name="YLoc"></Undefined>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 2/MRadiationRefPoint:" Class="MRadiationRefPoint">
+        <String Name="Comment"><![CDATA[]]></String>
+        <Undefined Name="Depth"></Undefined>
+        <Integer Name="DominantFieldFlag">0</Integer>
+        <Integer Name="DoseSpecificationFlag">1</Integer>
+        <Undefined Name="FieldDose"></Undefined>
+        <String Name="ID"><![CDATA[]]></String>
+        <Integer Name="LoadStatus">1</Integer>
+        <String Name="Name"><![CDATA[]]></String>
+        <Undefined Name="PSSD"></Undefined>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 2"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1/MDoseContribution:"></ObjectPointer>
+        </Array>
+        <Undefined Name="XLoc"></Undefined>
+        <Undefined Name="YLoc"></Undefined>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 3/MRadiationRefPoint:" Class="MRadiationRefPoint">
+        <String Name="Comment"><![CDATA[]]></String>
+        <Undefined Name="Depth"></Undefined>
+        <Integer Name="DominantFieldFlag">0</Integer>
+        <Integer Name="DoseSpecificationFlag">1</Integer>
+        <Undefined Name="FieldDose"></Undefined>
+        <String Name="ID"><![CDATA[]]></String>
+        <Integer Name="LoadStatus">1</Integer>
+        <String Name="Name"><![CDATA[]]></String>
+        <Undefined Name="PSSD"></Undefined>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 3"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1/MDoseContribution:"></ObjectPointer>
+        </Array>
+        <Undefined Name="XLoc"></Undefined>
+        <Undefined Name="YLoc"></Undefined>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 4/MRadiationRefPoint:" Class="MRadiationRefPoint">
+        <String Name="Comment"><![CDATA[]]></String>
+        <Undefined Name="Depth"></Undefined>
+        <Integer Name="DominantFieldFlag">0</Integer>
+        <Integer Name="DoseSpecificationFlag">1</Integer>
+        <Undefined Name="FieldDose"></Undefined>
+        <String Name="ID"><![CDATA[]]></String>
+        <Integer Name="LoadStatus">1</Integer>
+        <String Name="Name"><![CDATA[]]></String>
+        <Undefined Name="PSSD"></Undefined>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 4"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1/MDoseContribution:"></ObjectPointer>
+        </Array>
+        <Undefined Name="XLoc"></Undefined>
+        <Undefined Name="YLoc"></Undefined>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 5/MRadiationRefPoint:" Class="MRadiationRefPoint">
+        <String Name="Comment"><![CDATA[]]></String>
+        <Undefined Name="Depth"></Undefined>
+        <Integer Name="DominantFieldFlag">0</Integer>
+        <Integer Name="DoseSpecificationFlag">1</Integer>
+        <Undefined Name="FieldDose"></Undefined>
+        <String Name="ID"><![CDATA[]]></String>
+        <Integer Name="LoadStatus">1</Integer>
+        <String Name="Name"><![CDATA[]]></String>
+        <Undefined Name="PSSD"></Undefined>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 5"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1/MDoseContribution:"></ObjectPointer>
+        </Array>
+        <Undefined Name="XLoc"></Undefined>
+        <Undefined Name="YLoc"></Undefined>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 6/MRadiationRefPoint:" Class="MRadiationRefPoint">
+        <String Name="Comment"><![CDATA[]]></String>
+        <Undefined Name="Depth"></Undefined>
+        <Integer Name="DominantFieldFlag">0</Integer>
+        <Integer Name="DoseSpecificationFlag">1</Integer>
+        <Undefined Name="FieldDose"></Undefined>
+        <String Name="ID"><![CDATA[]]></String>
+        <Integer Name="LoadStatus">1</Integer>
+        <String Name="Name"><![CDATA[]]></String>
+        <Undefined Name="PSSD"></Undefined>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 6"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1/MDoseContribution:"></ObjectPointer>
+        </Array>
+        <Undefined Name="XLoc"></Undefined>
+        <Undefined Name="YLoc"></Undefined>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 7/MRadiationRefPoint:" Class="MRadiationRefPoint">
+        <String Name="Comment"><![CDATA[]]></String>
+        <Undefined Name="Depth"></Undefined>
+        <Integer Name="DominantFieldFlag">0</Integer>
+        <Integer Name="DoseSpecificationFlag">1</Integer>
+        <Undefined Name="FieldDose"></Undefined>
+        <String Name="ID"><![CDATA[]]></String>
+        <Integer Name="LoadStatus">1</Integer>
+        <String Name="Name"><![CDATA[]]></String>
+        <Undefined Name="PSSD"></Undefined>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 7"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1/MDoseContribution:"></ObjectPointer>
+        </Array>
+        <Undefined Name="XLoc"></Undefined>
+        <Undefined Name="YLoc"></Undefined>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 8/MRadiationRefPoint:" Class="MRadiationRefPoint">
+        <String Name="Comment"><![CDATA[]]></String>
+        <Undefined Name="Depth"></Undefined>
+        <Integer Name="DominantFieldFlag">0</Integer>
+        <Integer Name="DoseSpecificationFlag">1</Integer>
+        <Undefined Name="FieldDose"></Undefined>
+        <String Name="ID"><![CDATA[]]></String>
+        <Integer Name="LoadStatus">1</Integer>
+        <String Name="Name"><![CDATA[]]></String>
+        <Undefined Name="PSSD"></Undefined>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 8"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1/MDoseContribution:"></ObjectPointer>
+        </Array>
+        <Undefined Name="XLoc"></Undefined>
+        <Undefined Name="YLoc"></Undefined>
+      </Object>
+      <Object ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 9/MRadiationRefPoint:" Class="MRadiationRefPoint">
+        <String Name="Comment"><![CDATA[]]></String>
+        <Undefined Name="Depth"></Undefined>
+        <Integer Name="DominantFieldFlag">0</Integer>
+        <Integer Name="DoseSpecificationFlag">1</Integer>
+        <Undefined Name="FieldDose"></Undefined>
+        <String Name="ID"><![CDATA[]]></String>
+        <Integer Name="LoadStatus">1</Integer>
+        <String Name="Name"><![CDATA[]]></String>
+        <Undefined Name="PSSD"></Undefined>
+        <Array Name="Parents">
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MBeamLinac:Field 9"></ObjectPointer>
+          <ObjectPointer ID="MPatient:UITArcHeadNeck/MCourse:C1/MPlanSetup:Plan1/MFractionation:F1/MDoseContribution:"></ObjectPointer>
+        </Array>
+        <Undefined Name="XLoc"></Undefined>
+        <Undefined Name="YLoc"></Undefined>
+      </Object>
+    </Array>
+  </Test>
+  <Test>
+    <ID>ArcHeadNeckPatient UIT#19</ID>
+    <Description>Testing the metal structure.</Description>
+    <Object ID="MPatient:UITArcHeadNeck/MStudy:111001/MSeries:Series 3/MStructureSet:CT_1/MStructure:metal" Class="MStructure" TestAs="MemberEqual" Name="Structure">
+      <String Name="Comment"><![CDATA[]]></String>
+      <Integer Name="DVHLineColor">-16777216</Integer>
+      <Integer Name="DVHLineStyle">0</Integer>
+      <Double Tolerance="0.01" Name="DVHLineWidth">1</Double>
+      <Undefined Name="EUDAlpha"></Undefined>
+      <Undefined Name="FirstSlice"></Undefined>
+      <String Name="GenerationAlgorithm"><![CDATA[MANUAL]]></String>
+      <String Name="ID"><![CDATA[metal]]></String>
+      <Integer Name="LastModifiedPlane">0</Integer>
+      <Undefined Name="LastSlice"></Undefined>
+      <Integer Name="LoadStatus">1</Integer>
+      <Object ID="NIL" Class="MObject" Name="Material"></Object>
+      <Double Tolerance="30" Name="MaterialCTValue">3000</Double>
+      <String Name="Name"><![CDATA[metal]]></String>
+      <String Name="ROIPhysicalProperty"><![CDATA[]]></String>
+      <String Name="ROIPhysicalPropertyValue"><![CDATA[]]></String>
+      <Undefined Name="SearchCTHigh"></Undefined>
+      <Undefined Name="SearchCTLow"></Undefined>
+      <Volume3D Base="Segment" TestAs="CrossOver" width="512" height="512" depth="79" bytesPerPixel="1" Name="Structure pixels">Segment 13.v3d</Volume3D>
+      <Object ID="MStructureType:PatientVolume" Class="MStructureType" Name="StructureType"></Object>
+      <Undefined Name="TCPAlpha"></Undefined>
+      <Undefined Name="TCPBeta"></Undefined>
+      <Undefined Name="TCPGamma"></Undefined>
+      <Undefined Name="ThicknessCm"></Undefined>
+      <Array Name="Transform">
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>1</Double>
+          <Double>0</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>1</Double>
+          <Double>0</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="0.01">
+          <Double>0</Double>
+          <Double>0</Double>
+          <Double>1</Double>
+        </Array>
+        <Array PresentAs="Vector" TestAs="Vector" Tolerance="9.09">
+          <Double>199.609375</Double>
+          <Double>199.609375</Double>
+          <Double>-864.18</Double>
+        </Array>
+      </Array>
+      <Double Tolerance="0.00781" Name="X res">0.78125</Double>
+      <Integer Name="X size">512</Integer>
+      <Double Tolerance="0.00781" Name="Y res">0.78125</Double>
+      <Integer Name="Y size">512</Integer>
+      <Double Tolerance="0.03" Name="Z res">3</Double>
+      <Integer Name="Z size">79</Integer>
+    </Object>
+    <String Name="Assigned material"><![CDATA[Aluminum]]></String>
+    <Double Tolerance="0.5" Name="Assigned CT value">3000</Double>
+  </Test>
+  <Identification>
+    <TimeStamp>Tuesday, September 10, 2013 8:08:22 AM</TimeStamp>
+    <ComputerName>HE-VUIT21</ComputerName>
+    <SystemStartOptions> NOEXECUTE=OPTOUT</SystemStartOptions>
+    <X64>TRUE</X64>
+    <DBEdition>.1</DBEdition>
+    <DBVersion>13.0.16</DBVersion>
+    <DBProductVersion>11.0.3000.0</DBProductVersion>
+    <DBServerName>HE-UITS13</DBServerName>
+    <DBName>uitdb1</DBName>
+    <OSPServer>3.1.3.0</OSPServer>
+    <VAClientVersion>13.0.28.435</VAClientVersion>
+    <ClientVersion>
+      <DLL>vd.dll: 13.0.28.435</DLL>
+      <DLL>DCLib.dll: 8.0.15.0</DLL>
+      <DLL>ImportX: 8.0.3.28</DLL>
+      <DLL>Microsoft .NET Framework: 4.0.31106.0 (Main.031106-0000)</DLL>
+      <DLL>Platform Client: 3.0.1401.0</DLL>
+    </ClientVersion>
+    <ComFileVersion>
+      <Filter>DICOM Media File Export Filter 13.0.28.435, B:\VA\bin\release64\ComFilters\VDicomExportFilter.dll</Filter>
+      <Filter>DICOM Media File Import Filter 13.0.28.435, B:\VA\bin\release64\ComFilters\VDicomImportFilter.dll</Filter>
+    </ComFileVersion>
+    <DCFClientConfig>
+      <Parameter>AlgorithmTemplatesRootPath: </Parameter>
+      <Parameter>AngularResolutionInConformalArcAndVMATCalculations: OFF</Parameter>
+      <Parameter>BeamDataDirectoryMapPath: </Parameter>
+      <Parameter>BeamDataRootPath: \\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\</Parameter>
+      <Parameter>CalculationModelsPath: \\HE-UITS13.vms.ad.varian.com\DCF$\client\</Parameter>
+      <Parameter>ControlPointFieldParallelizationFactor: 24</Parameter>
+      <Parameter>DataDumpFolder: </Parameter>
+      <Parameter>DebugOutput: true</Parameter>
+      <Parameter>DefaultCalculationModelsPath: </Parameter>
+      <Parameter>InstalledAlgorithmsPath: \\HE-UITS13.vms.ad.varian.com\DCF$\client\</Parameter>
+      <Parameter>LogServiceExecutionInfo: </Parameter>
+      <Parameter>LongOperationTimeout: 45</Parameter>
+      <Parameter>MaxLocalServants: 1</Parameter>
+      <Parameter>MaxRunningCalls: </Parameter>
+      <Parameter>MaxRunningNoWaitCalls: </Parameter>
+      <Parameter>MonteCarloFieldParallelizationFactor: 6 (local override)</Parameter>
+      <Parameter>NoWaitCallMemoryUsageLimitInMB: </Parameter>
+      <Parameter>PhysicalMemoryUtilizationLimit: 100%</Parameter>
+      <Parameter>ProcessorUtilizationLimit: 100%</Parameter>
+      <Parameter>ServiceConfigurationPath: \\HE-UITS13.vms.ad.varian.com\DCF$\server\</Parameter>
+      <Parameter>ServiceConnectorType: HybridServiceConnector</Parameter>
+      <Parameter>ShortOperationTimeout: 10</Parameter>
+    </DCFClientConfig>
+    <DCFDistributor>13.0.0.62139 (32 bit)</DCFDistributor>
+    <FrameworkFileVersions>VCClient.dll: 13.0.0.62139</FrameworkFileVersions>
+    <AlgorithmFileVersions>
+      <Algorithm>UIT_AAA_10.0.25 (bin\Anisotropic Analytical Algorithm (10.0.25)\AAAServant.exe): 10.0.25.9776</Algorithm>
+      <Algorithm>UIT_AAA_10.0.25 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_AAA_10.0.25\AAAConfig.exe): 10.0.25.9776</Algorithm>
+      <Algorithm>UIT_AAA_10.0.28 (bin\Anisotropic Analytical Algorithm (10.0.28)\AAAServant.exe): 10.0.28.9901</Algorithm>
+      <Algorithm>UIT_AAA_10.0.28 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_AAA_10.0.28\AAAConfig.exe): 10.0.25.9776</Algorithm>
+      <Algorithm>UIT_AAA_11.0.21 (bin\Anisotropic Analytical Algorithm (11.0.21)\AAAServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_AAA_11.0.21 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_AAA_11.0.21\AAAConfig.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_AAA_11.0.30 (bin\Anisotropic Analytical Algorithm (11.0.30)\AAAServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_AAA_11.0.30 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_AAA_11.0.30\AAAConfig.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_AAA_11.0.31 (bin\Anisotropic Analytical Algorithm (11.0.31)\AAAServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_AAA_11.0.31 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_AAA_11.0.31\AAAConfig.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_AAA_latest (bin\Anisotropic Analytical Algorithm (13.0.24)\AAAServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UIT_AAA_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_AAA_latest\AAAConfig.exe): 13.0.20.393</Algorithm>
+      <Algorithm>UIT_ACU_10.0.28 (bin\Acuros External Beam (10.0.28)\AcurosServant.exe): 10.0.28.9901</Algorithm>
+      <Algorithm>UIT_ACU_10.0.28 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_AXB_10.0.28\AcurosConfig.exe): 10.0.28.9901</Algorithm>
+      <Algorithm>UIT_ACU_11.0.21 (bin\Acuros External Beam (11.0.21)\AcurosServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_ACU_11.0.21 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_AXB_11.0.21\AcurosConfig.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_ACU_11.0.30 (bin\Acuros External Beam (11.0.30)\AcurosServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_ACU_11.0.30 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_AXB_11.0.30\AcurosConfig.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_ACU_11.0.31 (bin\Acuros External Beam (11.0.31)\AcurosServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_ACU_11.0.31 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_AXB_11.0.31\AcurosConfig.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_ACU_latest (bin\Acuros External Beam (13.0.24)\AcurosServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UIT_ACU_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_AXB_latest\AcurosConfig.exe): 13.0.20.393</Algorithm>
+      <Algorithm>UIT_BAO_10.0.25 (bin\Plan Geometry Optimizer (10.0.25)\GeosServant.exe): 10.0.25.9132</Algorithm>
+      <Algorithm>UIT_BAO_10.0.25 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_BAO_10.0.25\mrdcconf.exe): 10.0.25.8578</Algorithm>
+      <Algorithm>UIT_BAO_10.0.28 (bin\Plan Geometry Optimizer (10.0.28)\GeosServant.exe): 10.0.28.9833</Algorithm>
+      <Algorithm>UIT_BAO_10.0.28 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_BAO_10.0.28\mrdcconf.exe): 10.0.25.8578</Algorithm>
+      <Algorithm>UIT_BAO_11.0.21 (bin\Plan Geometry Optimizer (11.0.21)\GEOSServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_BAO_11.0.21 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_BAO_11.0.21\mrdcconf.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_BAO_11.0.30 (bin\Plan Geometry Optimizer (11.0.30)\GEOSServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_BAO_11.0.30 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_BAO_11.0.30\mrdcconf.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_BAO_11.0.31 (bin\Plan Geometry Optimizer (11.0.31)\GEOSServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_BAO_11.0.31 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_BAO_11.0.31\mrdcconf.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_BAO_latest (bin\Plan Geometry Optimizer (13.0.24)\GEOSServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UIT_BAO_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_BAO_latest\mrdcconf.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_DVO_10.0.25 (bin\Dose Volume Optimizer (10.0.25)\DVOServant.exe): 10.0.25.9132</Algorithm>
+      <Algorithm>UIT_DVO_10.0.25 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_DVO_10.0.25\mrdcconf.exe): 10.0.25.8578</Algorithm>
+      <Algorithm>UIT_DVO_10.0.28 (bin\Dose Volume Optimizer (10.0.28)\DVOServant.exe): 10.0.28.9833</Algorithm>
+      <Algorithm>UIT_DVO_10.0.28 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_DVO_10.0.28\mrdcconf.exe): 10.0.25.8578</Algorithm>
+      <Algorithm>UIT_DVO_11.0.21 (bin\Dose Volume Optimizer (11.0.21)\DVOServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_DVO_11.0.21 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_DVO_11.0.21\mrdcconf.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_DVO_11.0.30 (bin\Dose Volume Optimizer (11.0.30)\DVOServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_DVO_11.0.30 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_DVO_11.0.30\mrdcconf.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_DVO_11.0.31 (bin\Dose Volume Optimizer (11.0.31)\DVOServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_DVO_11.0.31 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_DVO_11.0.31\mrdcconf.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_DVO_latest (bin\Dose Volume Optimizer (13.0.24)\DVOServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UIT_DVO_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_DVO_latest\mrdcconf.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_EMC_10.0.25 (bin\Electron Monte Carlo (10.0.25)\EMCServant.exe): 10.0.25.9715</Algorithm>
+      <Algorithm>UIT_EMC_10.0.25 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_EMC_10.0.25\ipsconfig.exe): 10.0.25.9715</Algorithm>
+      <Algorithm>UIT_EMC_10.0.28 (bin\Electron Monte Carlo (10.0.28)\EMCServant.exe): 10.0.28.9899</Algorithm>
+      <Algorithm>UIT_EMC_10.0.28 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_EMC_10.0.28\ipsconfig.exe): 10.0.25.9715</Algorithm>
+      <Algorithm>UIT_EMC_11.0.21 (bin\Electron Monte Carlo (11.0.21)\EMCServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_EMC_11.0.21 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_EMC_11.0.21\ipsconfig.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_EMC_11.0.30 (bin\Electron Monte Carlo (11.0.30)\EMCServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_EMC_11.0.30 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_EMC_11.0.30\ipsconfig.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_EMC_11.0.31 (bin\Electron Monte Carlo (11.0.31)\EMCServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_EMC_11.0.31 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_EMC_11.0.31\ipsconfig.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_EMC_latest (bin\Electron Monte Carlo (13.0.24)\EMCServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UIT_EMC_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_EMC_latest\ipsconfig.exe): 13.0.22.424</Algorithm>
+      <Algorithm>UIT_GGPB_10.0.25 (bin\Generalized Gaussian Pencil Beam (10.0.25)\GGPBServant.exe): 10.0.25.9091</Algorithm>
+      <Algorithm>UIT_GGPB_10.0.25 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_GGPB_10.0.25\GGPB_Config.exe): 10.0.25.9091</Algorithm>
+      <Algorithm>UIT_GGPB_10.0.28 (bin\Generalized Gaussian Pencil Beam (10.0.28)\GGPBServant.exe): 10.0.28.9833</Algorithm>
+      <Algorithm>UIT_GGPB_10.0.28 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_GGPB_10.0.28\GGPB_Config.exe): 10.0.25.9091</Algorithm>
+      <Algorithm>UIT_GGPB_11.0.21 (bin\Generalized Gaussian Pencil Beam (11.0.21)\GGPBServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_GGPB_11.0.21 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_GGPB_11.0.21\GGPB_Config.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_GGPB_11.0.30 (bin\Generalized Gaussian Pencil Beam (11.0.30)\GGPBServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_GGPB_11.0.30 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_GGPB_11.0.30\GGPB_Config.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_GGPB_11.0.31 (bin\Generalized Gaussian Pencil Beam (11.0.31)\GGPBServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_GGPB_11.0.31 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_GGPB_11.0.31\GGPB_Config.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_LMC_10.0.25 (bin\Varian Leaf Motion Calculator (10.0.25)\LMCVServant.exe): 10.0.25.9289</Algorithm>
+      <Algorithm>UIT_LMC_10.0.28 (bin\Varian Leaf Motion Calculator (10.0.28)\LMCVServant.exe): 10.0.28.9833</Algorithm>
+      <Algorithm>UIT_LMC_11.0.21 (bin\Varian Leaf Motion Calculator (11.0.21)\LMCVServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_LMC_11.0.30 (bin\Varian Leaf Motion Calculator (11.0.30)\LMCVServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_LMC_11.0.31 (bin\Varian Leaf Motion Calculator (11.0.31)\LMCVServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_LMC_latest (bin\Varian Leaf Motion Calculator (13.0.24)\LMCVServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UIT_MSS_10.0.25 (bin\MSS Leaf Motion Calculator (10.0.25)\LMCMSSServant.exe): 10.0.25.9288</Algorithm>
+      <Algorithm>UIT_MSS_10.0.28 (bin\MSS Leaf Motion Calculator (10.0.28)\LMCMSSServant.exe): 10.0.28.9833</Algorithm>
+      <Algorithm>UIT_MSS_11.0.21 (bin\MSS Leaf Motion Calculator (11.0.21)\LMCMSSServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_MSS_11.0.30 (bin\MSS Leaf Motion Calculator (11.0.30)\LMCMSSServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_MSS_11.0.31 (bin\MSS Leaf Motion Calculator (11.0.31)\LMCMSSServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_MSS_latest (bin\MSS Leaf Motion Calculator (13.0.24)\LMCMSSServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UIT_LMCJT_10.0.25 (bin\Smart LMC (10.0.25)\SmartLMCServant.exe): 10.0.25.9634</Algorithm>
+      <Algorithm>UIT_LMCJT_10.0.28 (bin\Smart LMC (10.0.28)\SmartLMCServant.exe): 10.0.28.9833</Algorithm>
+      <Algorithm>UIT_LMCJT_11.0.21 (bin\Smart LMC (11.0.21)\SmartLMCServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_LMCJT_11.0.30 (bin\Smart LMC (11.0.30)\SmartLMCServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_LMCJT_11.0.31 (bin\Smart LMC (11.0.31)\SmartLMCServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_LMCJT_latest (bin\Smart LMC (13.0.24)\SmartLMCServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UIT_PBC_10.0.25 (bin\Pencil Beam Convolution (10.0.25)\PBCServant.exe): 10.0.25.9091</Algorithm>
+      <Algorithm>UIT_PBC_10.0.25 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PBC_10.0.25\PBC_Config.exe): 10.0.25.9091</Algorithm>
+      <Algorithm>UIT_PBC_10.0.28 (bin\Pencil Beam Convolution (10.0.28)\PBCServant.exe): 10.0.28.9833</Algorithm>
+      <Algorithm>UIT_PBC_10.0.28 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PBC_10.0.28\PBC_Config.exe): 10.0.25.9091</Algorithm>
+      <Algorithm>UIT_PBC_11.0.21 (bin\Pencil Beam Convolution (11.0.21)\PBCServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_PBC_11.0.21 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PBC_11.0.21\PBC_Config.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_PBC_11.0.30 (bin\Pencil Beam Convolution (11.0.30)\PBCServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_PBC_11.0.30 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PBC_11.0.30\PBC_Config.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_PBC_11.0.31 (bin\Pencil Beam Convolution (11.0.31)\PBCServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_PBC_11.0.31 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PBC_11.0.31\PBC_Config.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_PCS_10.0.25 (bin\Proton Convolution Superposition (10.0.25)\ProtonServant.exe): 10.0.25.9705</Algorithm>
+      <Algorithm>UIT_PCS_10.0.25 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PCS_10.0.25\ProtonBCMain.exe): 10.0.25.9705</Algorithm>
+      <Algorithm>UIT_PCS_10.0.28 (bin\Proton Convolution Superposition (10.0.28)\ProtonServant.exe): 10.0.28.9882</Algorithm>
+      <Algorithm>UIT_PCS_10.0.28 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PCS_10.0.28\ProtonBCMain.exe): 10.0.25.9705</Algorithm>
+      <Algorithm>UIT_PCS_11.0.21 (bin\Proton Convolution Superposition (11.0.21)\ProtonServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_PCS_11.0.21 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PCS_11.0.21\ProtonBCMain.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_PCS_11.0.30 (bin\Proton Convolution Superposition (11.0.30)\ProtonServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_PCS_11.0.30 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PCS_11.0.30\ProtonBCMain.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_PCS_11.0.31 (bin\Proton Convolution Superposition (11.0.31)\ProtonServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_PCS_11.0.31 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PCS_11.0.31\ProtonBCMain.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_PCS_latest (bin\Proton Convolution Superposition (13.0.24)\ProtonServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UIT_PCS_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PCS_latest\ProtonBCMain.exe): 13.0.24.434</Algorithm>
+      <Algorithm>UITMC_PCS_10.0.28 (bin\Proton Convolution Superposition (10.0.28)\ProtonServant.exe): 10.0.28.9882</Algorithm>
+      <Algorithm>UITMC_PCS_10.0.28 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UITMC_PCS_10.0.28\ProtonBCMain.exe): 10.0.28.9882</Algorithm>
+      <Algorithm>UITMC_PCS_11.0.31 (bin\Proton Convolution Superposition (11.0.31)\ProtonServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UITMC_PCS_11.0.31 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UITMC_PCS_11.0.31\ProtonBCMain.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UITMC_PCS_latest (bin\Proton Convolution Superposition (13.0.24)\ProtonServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UITMC_PCS_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UITMC_PCS_latest\ProtonBCMain.exe): 13.0.24.434</Algorithm>
+      <Algorithm>UIT_PCS_SG_10.0.25 (bin\Proton Convolution Superposition (10.0.25)\ProtonServant.exe): 10.0.25.9705</Algorithm>
+      <Algorithm>UIT_PCS_SG_10.0.25 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PCS_SG_10.0.25\ProtonBCMain.exe): 10.0.25.9705</Algorithm>
+      <Algorithm>UIT_PCS_SG_10.0.28 (bin\Proton Convolution Superposition (10.0.28)\ProtonServant.exe): 10.0.28.9882</Algorithm>
+      <Algorithm>UIT_PCS_SG_10.0.28 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PCS_SG_10.0.28\ProtonBCMain.exe): 10.0.25.9705</Algorithm>
+      <Algorithm>UIT_PCS_SG_11.0.21 (bin\Proton Convolution Superposition (11.0.21)\ProtonServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_PCS_SG_11.0.21 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PCS_SG_11.0.21\ProtonBCMain.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_PCS_SG_11.0.30 (bin\Proton Convolution Superposition (11.0.30)\ProtonServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_PCS_SG_11.0.30 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PCS_SG_11.0.30\ProtonBCMain.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_PCS_SG_11.0.31 (bin\Proton Convolution Superposition (11.0.31)\ProtonServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_PCS_SG_11.0.31 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PCS_SG_11.0.31\ProtonBCMain.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_PCS_SG_latest (bin\Proton Convolution Superposition (13.0.24)\ProtonServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UIT_PCS_SG_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PCS_SG_latest\ProtonBCMain.exe): 13.0.24.434</Algorithm>
+      <Algorithm>UIT_PDIP_10.0.25 (bin\Portal Dose Image Prediction (10.0.25)\PDIPServant.exe): 10.0.25.8575</Algorithm>
+      <Algorithm>UIT_PDIP_10.0.25 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PDIP_10.0.25\PDIP_Config.exe): 10.0.25.8575</Algorithm>
+      <Algorithm>UIT_PDIP_10.0.28 (bin\Portal Dose Image Prediction (10.0.28)\PDIPServant.exe): 10.0.28.8575</Algorithm>
+      <Algorithm>UIT_PDIP_10.0.28 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PDIP_10.0.28\PDIP_Config.exe): 10.0.25.8575</Algorithm>
+      <Algorithm>UIT_PDIP_11.0.21 (bin\Portal Dose Image Prediction (11.0.21)\PDIPServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_PDIP_11.0.21 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PDIP_11.0.21\PDIP_Config.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_PDIP_11.0.30 (bin\Portal Dose Image Prediction (11.0.30)\PDIPServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_PDIP_11.0.30 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PDIP_11.0.30\PDIP_Config.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_PDIP_11.0.31 (bin\Portal Dose Image Prediction (11.0.31)\PDIPServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_PDIP_11.0.31 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PDIP_11.0.31\PDIP_Config.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_PDIP_latest (bin\Portal Dose Image Prediction (13.0.24)\PDIPServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UIT_PDIP_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PDIP_latest\PDIP_Config.exe): 13.0.22.424</Algorithm>
+      <Algorithm>UIT_PRO_10.0.25 (bin\Progressive Resolution Optimizer (10.0.25)\PROServant.exe): 10.0.25.9639</Algorithm>
+      <Algorithm>UIT_PRO_10.0.25 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PRO_10.0.25\mrdcconf.exe): 10.0.25.8578</Algorithm>
+      <Algorithm>UIT_PRO_10.0.28 (bin\Progressive Resolution Optimizer (10.0.28)\PROServant.exe): 10.0.28.9833</Algorithm>
+      <Algorithm>UIT_PRO_10.0.28 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PRO_10.0.28\mrdcconf.exe): 10.0.25.8578</Algorithm>
+      <Algorithm>UIT_PRO_11.0.21 (bin\Progressive Resolution Optimizer (11.0.21)\PROServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_PRO_11.0.21 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PRO_11.0.21\mrdcconf.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_PRO_11.0.30 (bin\Progressive Resolution Optimizer (11.0.30)\PROServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_PRO_11.0.30 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PRO_11.0.30\mrdcconf.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_PRO_11.0.31 (bin\Progressive Resolution Optimizer (11.0.31)\PROServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_PRO_11.0.31 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PRO_11.0.31\mrdcconf.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_PRO_latest (bin\Progressive Resolution Optimizer (13.0.24)\PROServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UIT_PRO_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_PRO_latest\mrdcconf.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_SRS_10.0.25 (bin\Eclipse Cone Dose Calculation (10.0.25)\SRSServant.exe): 10.0.25.9527</Algorithm>
+      <Algorithm>UIT_SRS_10.0.25 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_SRS_10.0.25\SRSConfig.exe): 10.0.25.9527</Algorithm>
+      <Algorithm>UIT_SRS_10.0.28 (bin\Eclipse Cone Dose Calculation (10.0.28)\SRSServant.exe): 10.0.28.9833</Algorithm>
+      <Algorithm>UIT_SRS_10.0.28 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_SRS_10.0.28\SRSConfig.exe): 10.0.25.9527</Algorithm>
+      <Algorithm>UIT_SRS_11.0.21 (bin\Eclipse Cone Dose Calculation (11.0.21)\SRSServant.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_SRS_11.0.21 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_SRS_11.0.21\SRSConfig.exe): 11.0.21.53811</Algorithm>
+      <Algorithm>UIT_SRS_11.0.30 (bin\Eclipse Cone Dose Calculation (11.0.30)\SRSServant.exe): 11.0.30.59467</Algorithm>
+      <Algorithm>UIT_SRS_11.0.30 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_SRS_11.0.30\SRSConfig.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_SRS_11.0.31 (bin\Eclipse Cone Dose Calculation (11.0.31)\SRSServant.exe): 11.0.31.62671</Algorithm>
+      <Algorithm>UIT_SRS_11.0.31 Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_SRS_11.0.31\SRSConfig.exe): 11.0.29.58962</Algorithm>
+      <Algorithm>UIT_SRS_latest (bin\Eclipse Cone Dose Calculation (13.0.24)\SRSServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UIT_SRS_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_SRS_latest\SRSConfig.exe): 13.0.20.393</Algorithm>
+      <Algorithm>UITMC_AAA_latest (bin\Anisotropic Analytical Algorithm (13.0.24)\AAAServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UITMC_AAA_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UITMC_AAA_latest\AAAConfig.exe): 13.0.20.393</Algorithm>
+      <Algorithm>UITMC_ACU_latest (bin\Acuros External Beam (13.0.24)\AcurosServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UITMC_ACU_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UITMC_AXB_latest\AcurosConfig.exe): 13.0.20.393</Algorithm>
+      <Algorithm>UITMC_EMC_latest (bin\Electron Monte Carlo (13.0.24)\EMCServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UITMC_EMC_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UITMC_EMC_latest\ipsconfig.exe): 13.0.22.424</Algorithm>
+      <Algorithm>UITMC_cone_BC_latest (bin\Eclipse Cone Dose Calculation (13.0.24)\SRSServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UITMC_cone_BC_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UITMC_cone_BC_latest\SRSConfig.exe): 13.0.20.393</Algorithm>
+      <Algorithm>UITMC_cone_FP_latest (bin\Eclipse Cone Dose Calculation (13.0.24)\SRSServant.exe): 13.0.24.435</Algorithm>
+      <Algorithm>UITMC_cone_FP_latest Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UITMC_cone_FP_latest\SRSConfig.exe): 13.0.20.393</Algorithm>
+      <Algorithm>UIT_EAPI_PhotonDose_latest (bin\[API] My Photon Dose Algorithm (13.0.2400)\MyPhotonDoseServant.exe): </Algorithm>
+      <Algorithm>UIT_EAPI_Electron_latest (bin\[API] My Electron Dose Algorithm (13.0.2400)\MyElectronDoseServant.exe): </Algorithm>
+      <Algorithm>UIT_EAPI_Proton_latest (bin\[API] My Proton Algorithm (13.0.2400)\MyProtonServant.exe): </Algorithm>
+      <Algorithm>UIT_EAPI_PhotonOptimize_latest (bin\[API] My Photon Optimization Algorithm (13.0.2400)\MyPhotonOptimizationServant.exe): </Algorithm>
+      <Algorithm>UIT_EAPI_LMC_latest (bin\[API] My Photon LMC Algorithm (13.0.2400)\MyPhotonLMCServant.exe): </Algorithm>
+      <Algorithm>UIT_AT_MBD_AAA Beam Data Calculator (\\he-uits-r1.vms.ad.varian.com\UIT_DCF\client\BeamData13\UIT_AT_MBD_AAA\AAAConfig.exe): 13.0.05.61491</Algorithm>
+    </AlgorithmFileVersions>
+    <UITDataRev>disabled</UITDataRev>
+    <UITDataLocation>B:\UITData\Input\</UITDataLocation>
+    <Registry>
+      <GetRegLocalCacheTimerInterval>24</GetRegLocalCacheTimerInterval>
+      <GetRegLocalEmergencyPercentage>75</GetRegLocalEmergencyPercentage>
+      <GetRegLocalFileDataAccessSleepMax>2000</GetRegLocalFileDataAccessSleepMax>
+      <GetRegLocalFileDataAccessSleepMin>100</GetRegLocalFileDataAccessSleepMin>
+      <GetRegLocalFileDataAccessTimeout>0</GetRegLocalFileDataAccessTimeout>
+      <GetRegLocalGarbageCollectionTresholdPercentage>40</GetRegLocalGarbageCollectionTresholdPercentage>
+      <GetRegLocalImpExpLogFileSize>10000</GetRegLocalImpExpLogFileSize>
+      <GetRegLocalNLSVersionRadOnc></GetRegLocalNLSVersionRadOnc>
+      <GetRegLocalPlanConcurrencyInterval>60</GetRegLocalPlanConcurrencyInterval>
+      <GetRegLocalUseUnbufferedStructureSave>0</GetRegLocalUseUnbufferedStructureSave>
+      <GetRegLocalVolumeCacheMaxAge>24</GetRegLocalVolumeCacheMaxAge>
+      <GetRegLocalVolumeCacheMaxSize>2500</GetRegLocalVolumeCacheMaxSize>
+      <GetRegLocalVolumeCacheMinSize>2000</GetRegLocalVolumeCacheMinSize>
+      <GetRegRnDDisableVFCInstanceAndTaskRestrictions>0</GetRegRnDDisableVFCInstanceAndTaskRestrictions>
+      <GetEnableStrictVFCTaskRestrictions>0</GetEnableStrictVFCTaskRestrictions>
+    </Registry>
+  </Identification>
+</UNITTESTS>
