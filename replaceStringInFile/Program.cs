@@ -19,7 +19,6 @@ namespace replaceStringInFile
             // Filenames to change can be specified. Root folder for
             // filesearches must be given.
             //
-            ///String filepath=  "XMLFile1.xml";
             //String filepath2 = "XMLFile2.xml";
             //Console.WriteLine("Path: " + filepath);
             //Console.WriteLine("Search: " + search);
@@ -59,11 +58,16 @@ namespace replaceStringInFile
         }
         public static void ProcessFile(string filepath)
         {
-            String search = "0\\Mode\\UserDefined$0\\Err\\0$0\\Value\\100.00$";
-            String replacement = "0\\Err\\0$0\\Mode\\UserDefined$0\\Value\\100.00$";
+            String searchfilepath = "reference values.xml";
 
-            File.WriteAllText(filepath, File.ReadAllText(filepath).Replace(search, replacement));
-            //Console.WriteLine("Processed file '{0}'.", path);
+            if (filepath.Contains(searchfilepath))
+            {
+                String search = "0\\Mode\\UserDefined$0\\Err\\0$0\\Value\\100.00$";
+                String replacement = "0\\Err\\0$0\\Mode\\UserDefined$0\\Value\\100.00$";
+
+                File.WriteAllText(filepath, File.ReadAllText(filepath).Replace(search, replacement));
+                //Console.WriteLine("Processed file '{0}'.", path);
+            }
         }
     }
 }
