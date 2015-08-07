@@ -16,13 +16,10 @@ namespace replaceStringInFile
             // replaceStrinInFile.exe
             // Input parameter: root folder
             // Description: replaces string in all wanted files. 
-            // Filenames to change can be specified. Root folder for
-            // filesearches must be given.
+            // Filenames to change can be specified settings. Root folder for
+            // filesearches must be given at command promt.
+            // String to be replaced and new strings must be given in project settings.
             //
-            //String filepath2 = "XMLFile2.xml";
-            //Console.WriteLine("Path: " + filepath);
-            //Console.WriteLine("Search: " + search);
-            //Console.WriteLine("replace: " +replacement);
             foreach (string path in args)
             {
                 if (File.Exists(path))
@@ -58,14 +55,14 @@ namespace replaceStringInFile
         }
         public static void ProcessFile(string filepath)
         {
-            String searchfilepath = "reference values.xml";
+            String searchfilename = Properties.Settings.Default.searchfilename;
 
-            if (filepath.Contains(searchfilepath))
+            if (filepath.Contains(searchfilename))
             {
-                String search = "0\\Mode\\UserDefined$0\\Err\\0$0\\Value\\100.00$";
-                String replacement = "0\\Err\\0$0\\Mode\\UserDefined$0\\Value\\100.00$";
+                String search = Properties.Settings.Default.searchstring;
+                String newvalue = Properties.Settings.Default.replacestring;
 
-                File.WriteAllText(filepath, File.ReadAllText(filepath).Replace(search, replacement));
+                File.WriteAllText(filepath, File.ReadAllText(filepath).Replace(search, newvalue));
                 //Console.WriteLine("Processed file '{0}'.", path);
             }
         }
