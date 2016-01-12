@@ -10,11 +10,13 @@ namespace replaceStringInFile
     public class Input {
         public string searchFor {get;set;}
         public string replaceWith { get; set; }
+        public string filename { get; set; }
 
-        public Input(string searchstring, string replacestring)
+        public Input(string searchstring, string replacestring, string filestring)
         {
             searchFor = searchstring;
             replaceWith = replacestring;
+            filename = filestring;
         }
     }
     class Program
@@ -30,14 +32,17 @@ namespace replaceStringInFile
             string m1 = "\nType a string to be replaced then press Enter. "; 
             string m2 = "\nType a string to replace with then press Enter. ";
             string m3 = "\nType root path for starting file searches for filenames defined in settings. ";
+            string m4 = "\nOptionally type filename or part of name string .  \nNote. Default files: reference values.xml";
             Console.WriteLine(m1);
             string searchFor = Console.ReadLine();
             Console.WriteLine(m2);
             string replaceWith = Console.ReadLine();
             Console.WriteLine(m3);
             string path = Console.ReadLine();
+             Console.WriteLine(m4);
+            string filestring = Console.ReadLine();
 
-            Input replaceInput = new Input(searchFor, replaceWith);
+            Input replaceInput = new Input(searchFor, replaceWith,filestring);
 
             if (Directory.Exists(path))
             {
@@ -65,15 +70,29 @@ namespace replaceStringInFile
         }
         public static void ProcessFile(string path, Input input)
         {
-            String searchfilename = Properties.Settings.Default.searchfilename;
+            String searchfilename;
+            if (input.filename.Length == 0)
+            {
+                searchfilename = Properties.Settings.Default.searchfilename;
+            }
+            else
+            {
+                searchfilename = input.filename;
+            }
 
             if (path.Contains(searchfilename))
             {
                 String search =  input.searchFor;
                 String newvalue = input.replaceWith;
-
+                
+                //Process only files that are not readonly
+                FileAttributes attributes = File.GetAttributes(path);
+                if (((attributes & FileAttributes.ReadOnly) == FileAttributes.ReadOnly)==false){
+                
                 File.WriteAllText(path, File.ReadAllText(path).Replace(search, newvalue));
                 Console.WriteLine("Processed file '{0}'.", path);
+                }
+
             }
         }
     }
